@@ -32,47 +32,40 @@
     <button class="tab">Pop</button>
     <input type="text" id="search-box" placeholder="Search for a song...">
   </div>
-<div class="tracklist-scroll">
-  <div class="track-header">
-    <div>#</div>
-    <div></div>
-    <div>Title</div>
-    <div>Album</div>
-    <div>Year</div>
-    <div>Duration</div>
-    <div>BPM</div>
+
+  <div class="tracklist-scroll">
+    <div class="track-header">
+      <div>#</div>
+      <div></div>
+      <div>Title</div>
+      <div>Album</div>
+      <div>Year</div>
+      <div>Duration</div>
+      <div>BPM</div>
+    </div>
+    <div id="tracklist"></div>
   </div>
-  <div id="tracklist"></div>
-</div>
 
-<div class="wrap">
-  ...
-  <div id="tracklist"></div>
-</div>
-
-<div class="correction-form">
-  <h3>Spot something wrong?</h3>
-  <p>Wrong genre, missing song, bad link — let me know.</p>
-  <form action="YOUR_FORMSPREE_URL_HERE" method="POST">
-    <input type="text" name="song" placeholder="Song title">
-    <select name="type" required>
-      <option value="">What's the issue?</option>
-      <option value="wrong-song">Wrong song name</option>
-      <option value="wrong-genre">Wrong genre</option>
-      <option value="wrong-bpm">Wrong BPM</option>
-      <option value="missing-song">Missing song</option>
-      <option value="missing-mv">Missing Music Video</option>
-      <option value="broken-link">Broken listen link</option>
-      <option value="other">Other</option>
-    </select>
-    <textarea name="details" placeholder="Details. If a video is missing, please include links." rows="3" required></textarea>
-    <input type="email" name="email" placeholder="Your email (optional, if you want a reply)">
-    <button type="submit">Send</button>
-  </form>
-</div>
-
-<footer></footer>
-<p class="disclaimer">...</p>
+  <div class="correction-form">
+    <h3>Spot something wrong?</h3>
+    <p>Wrong genre, missing song, bad link — let me know.</p>
+    <form action="YOUR_FORMSPREE_URL_HERE" method="POST">
+      <input type="text" name="song" placeholder="Song title">
+      <select name="type" required>
+        <option value="">What's the issue?</option>
+        <option value="wrong-song">Wrong song name</option>
+        <option value="wrong-genre">Wrong genre</option>
+        <option value="wrong-bpm">Wrong BPM</option>
+        <option value="missing-song">Missing song</option>
+        <option value="missing-mv">Missing Music Video</option>
+        <option value="broken-link">Broken listen link</option>
+        <option value="other">Other</option>
+      </select>
+      <textarea name="details" placeholder="Details. If a video is missing, please include links." rows="3" required></textarea>
+      <input type="email" name="email" placeholder="Your email (optional, if you want a reply)">
+      <button type="submit">Send</button>
+    </form>
+  </div>
 
   <footer></footer>
   <p class="disclaimer">Not affiliated with JYP Entertainment or Stray Kids. This is a fan-made project with no profit intent.</p>
