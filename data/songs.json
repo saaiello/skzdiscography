@@ -4538,24 +4538,6 @@
     "recs": []
   },
   {
-    "title": "NO PROBLEM",
-    "album": "Singles/Solos/Features",
-    "year": null,
-    "duration": "3:08",
-    "genres": [
-      "Pop"
-    ],
-    "bpm": 122,
-    "tier": "Mid",
-    "art": "assets/covers/singles-solos-features.jpg",
-    "links": {
-      "spotify": "",
-      "appleMusic": "",
-      "youtube": ""
-    },
-    "recs": []
-  },
-  {
     "title": "All I Want Is You",
     "album": "Singles/Solos/Features",
     "year": null,
@@ -4659,44 +4641,6 @@
     "links": {
       "spotify": "",
       "appleMusic": "https://music.apple.com/us/album/here-always/1589042706?i=1589042707&uo=4",
-      "youtube": ""
-    },
-    "recs": []
-  },
-  {
-    "title": "Rush",
-    "album": "Singles/Solos/Features",
-    "year": null,
-    "duration": "2:50",
-    "genres": [
-      "EDM/Electronic",
-      "Pop"
-    ],
-    "bpm": 124,
-    "tier": "Mid",
-    "art": "assets/covers/singles-solos-features.jpg",
-    "links": {
-      "spotify": "",
-      "appleMusic": "",
-      "youtube": ""
-    },
-    "recs": []
-  },
-  {
-    "title": "Always Love",
-    "album": "Singles/Solos/Features",
-    "year": null,
-    "duration": "3:18",
-    "genres": [
-      "Acoustic/Lo-fi",
-      "Pop"
-    ],
-    "bpm": 118,
-    "tier": "Mid",
-    "art": "assets/covers/singles-solos-features.jpg",
-    "links": {
-      "spotify": "",
-      "appleMusic": "",
       "youtube": ""
     },
     "recs": []

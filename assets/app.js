@@ -72,7 +72,7 @@ function renderTracks(list) {
             <div class="rec-item">
               <div class="rec-row">
                 <div></div>
-                <div></div>
+                <img class="art" src="${r.art}" alt="${r.album} cover" onerror="this.style.visibility='hidden'">
                 <div class="rec-title">
                   <div class="rname">${r.title}</div>
                   <div class="rmeta">${r.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
@@ -125,6 +125,7 @@ function computeRecommendations(tracks) {
         duration: other.duration,
         bpm: other.bpm,
         genres: other.genres,
+        art: other.art,
         score: Math.round(similarityScore(song, other) * 100) / 100,
         links: other.links,
       }))
