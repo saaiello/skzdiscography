@@ -23,7 +23,7 @@
   --red: #FF1E2E;
   --red-deep: #7A1226;
   --text: #E8E6E3;
-  --text-dim: #8A8A8A;
+  --text-dim: #aeaeae;
   --border: #2A2A2A;
 }
 
@@ -241,24 +241,18 @@ header p {
 /* ============================================================
    8. TRACKLIST
    ============================================================ */
-.listen-label {
-  font-size: 0.75rem;
-  color: var(--text-dim);
-  align-self: center;
-}
- 
 .track {
   border-bottom: 1px solid var(--border);
 }
- 
-#tracklist {
+
+.tracklist-scroll {
   max-height: 60vh;
   overflow-y: auto;
 }
- 
+
 .track-header {
   display: grid;
-  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
+  grid-template-columns: 40px 40px 3fr 2fr 70px 80px 70px 20px;
   gap: 16px;
   padding: 8px 4px;
   font-size: 0.75rem;
@@ -266,191 +260,184 @@ header p {
   border-bottom: 1px solid var(--border);
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  position: sticky;
+  top: 0;
+  background: var(--black);
+  z-index: 1;
 }
- 
+
+.track-header div:nth-child(1) {
+  text-align: center;
+}
+.track-header div:nth-child(5),
+.track-header div:nth-child(6),
+.track-header div:nth-child(7) {
+  text-align: right;
+}
+
 .track-row {
   display: grid;
-  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
+  grid-template-columns: 40px 40px 3fr 2fr 70px 80px 70px 20px;
   align-items: center;
   gap: 16px;
   padding: 12px 4px;
   cursor: pointer;
 }
- 
+
 .track-row:hover {
   background: var(--surface-hover);
 }
- 
+
 .col-index {
   color: var(--text-dim);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   text-align: center;
 }
- 
-.col-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 0;
-}
- 
+
 .art {
   width: 40px;
   height: 40px;
   object-fit: cover;
   border-radius: 3px;
-  flex-shrink: 0;
 }
- 
-.track-info {
+
+.track-info,
+.rec-title {
   min-width: 0;
 }
- 
+
 .track-info .title {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  letter-spacing: normal;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
- 
+
 .track-info .meta {
   color: var(--text-dim);
   font-size: 0.8rem;
   margin-top: 2px;
 }
- 
+
 .genre-tag {
   display: inline-block;
-  padding: 1px 7px;
+  padding: 1px 1px;
   margin-right: 6px;
-  font-size: 0.72rem;
-  color: var(--red);
-  border: 1px solid var(--red-deep);
-  background: rgba(196,30,58,0.08);
+  font-size: 0.9rem;
+  color: var(--text-dim);
   white-space: nowrap;
 }
- 
+
 .col-album,
 .col-year,
 .col-duration,
-.col-bpm {
+.col-bpm,
+.rec-col {
   color: var(--text-dim);
   font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: right;
 }
- 
-.col-bpm {
+
+.col-album {
+  text-align: left;
+}
+
+.col-bpm,
+.rec-bpm {
   color: var(--red);
 }
- 
+
 .chevron {
   color: var(--text-dim);
   transition: transform 0.2s;
   font-size: 0.8rem;
 }
- 
+
 .track.open .chevron {
   transform: rotate(90deg);
   color: var(--red);
 }
- 
+
 /* ── "If you liked this" recommendations panel ── */
 .recs {
   display: none;
-  padding: 4px 4px 22px 19px;
-  position: relative;
+  padding: 4px 0 22px 0;
 }
- 
+
+.rec-album {
+  text-align: left;
+}
+
 .track.open .recs {
   display: block;
 }
- 
-.recs::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 22px;
-  width: 1px;
-  background: var(--border);
-}
- 
+
 .recs-label {
   font-size: 0.72rem;
   color: var(--text-dim);
-  margin: 8px 0 10px 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 8px 4px 10px;
 }
- 
+
 .rec-item {
-  padding: 8px 0 8px 16px;
-  position: relative;
+  padding: 10px 4px;
   border-bottom: 1px solid var(--border);
+  background: var(--surface);
 }
- 
 .rec-item:last-child {
   border-bottom: none;
 }
- 
-a.rec-item {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  transition: background 0.15s;
+
+.rec-row {
+  display: grid;
+  grid-template-columns: 40px 40px 3fr 2fr 70px 80px 70px 20px;
+  align-items: start;
+  gap: 16px;
 }
- 
-a.rec-item:hover {
-  background: var(--surface-hover);
+
+.rname {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
- 
-.rec-item::before {
-  content: '';
-  position: absolute;
-  left: -1px;
-  top: 20px;
-  width: 14px;
-  height: 1px;
-  background: var(--border);
+
+.rmeta {
+  margin-top: 2px;
 }
- 
-.rec-item-top {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+
+/* ── Listen-here row, shared by main track and recommendations ── */
+.listen-row {
+  display: grid;
+  grid-template-columns: 40px 40px 3fr 2fr 70px 80px 70px 20px;
+  gap: 16px;
+  padding: 0 4px 16px;
 }
- 
-.rec-item .rname {
-  font-family: 'Special Elite', monospace;
-  font-weight: 400;
-  font-size: 1.02rem;
-}
- 
-.rec-item .rmeta {
-  font-size: 0.76rem;
-  color: var(--text-dim);
-}
- 
-.rec-item .rscore {
-  margin-left: auto;
-  font-size: 0.76rem;
-  color: var(--red);
-  font-variant-numeric: tabular-nums;
-}
- 
-.listen-links {
+
+.listen-content {
+  grid-column: 3 / span 6;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 0 0 16px 16px;
+  flex-wrap: wrap;
 }
- 
+
+.listen-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
 .listen-link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--text);
   background: transparent;
@@ -459,20 +446,13 @@ a.rec-item:hover {
   text-decoration: none;
   transition: border-color 0.15s, color 0.15s;
 }
- 
 .listen-link:hover {
   border-color: var(--red);
   color: var(--red);
 }
- 
-.listen-links.mini {
-  padding: 6px 0 0;
-  gap: 6px;
-}
- 
 .listen-link.mini {
-  font-size: 0.68rem;
-  padding: 3px 8px;
+  font-size: 0.7rem;
+  padding: 4px 9px;
 }
  
 /* ============================================================
@@ -528,7 +508,7 @@ footer {
   grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
   gap: 16px;
   padding: 8px 4px;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--text-dim);
   border-bottom: 1px solid var(--border);
   text-transform: uppercase;
@@ -578,13 +558,17 @@ footer {
   background: var(--border);
 }
 
-  .art {
-    grid-area: art;
-  }
+.art {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 3px;
+}
 
-  .track-info {
-    grid-area: info;
-  }
+.track-info,
+.rec-title {
+  min-width: 0;
+}
 
   .chevron {
     grid-area: chevron;
@@ -599,7 +583,7 @@ footer {
   }
 
   .genre-tag {
-    font-size: 0.68rem;
+    font-size: 0.9rem;
     padding: 1px 5px;
   }
 }

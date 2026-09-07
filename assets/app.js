@@ -11,7 +11,13 @@ function buildListenLinks(links) {
     .join('');
 
   if (!buttons) return '';
-  return `<div class="listen-links"><span class="listen-label">Listen here:</span>${buttons}</div>`;
+  return `
+    <div class="listen-row">
+      <div></div>
+      <div></div>
+      <div class="listen-content"><span class="listen-label">Listen here:</span>${buttons}</div>
+    </div>
+  `;
 }
 
 function buildMiniListenLinks(links) {
@@ -27,7 +33,13 @@ function buildMiniListenLinks(links) {
     .join('');
 
   if (!buttons) return '';
-  return `<div class="listen-links mini">${buttons}</div>`;
+  return `
+    <div class="listen-row">
+      <div></div>
+      <div></div>
+      <div class="listen-content"><span class="listen-label">Listen here:</span>${buttons}</div>
+    </div>
+  `;
 }
 
 function renderTracks(list) {
@@ -41,12 +53,10 @@ function renderTracks(list) {
     el.innerHTML = `
       <div class="track-row" data-i="${i}">
         <div class="col-index">${i + 1}</div>
-        <div class="col-title">
-          <img class="art" src="${t.art}" alt="${t.album} cover" onerror="this.style.visibility='hidden'">
-          <div class="track-info">
-            <div class="title">${t.title}</div>
-            <div class="meta">${t.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
-          </div>
+        <img class="art" src="${t.art}" alt="${t.album} cover" onerror="this.style.visibility='hidden'">
+        <div class="track-info">
+          <div class="title">${t.title}</div>
+          <div class="meta">${t.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
         </div>
         <div class="col-album">${t.album}</div>
         <div class="col-year">${t.year ?? '—'}</div>
@@ -60,12 +70,18 @@ function renderTracks(list) {
           <div class="recs-label">If you liked this, try —</div>
           ${t.recs.map(r => `
             <div class="rec-item">
-              <div class="rec-item-top">
-                <div>
-                  <div class="rname">${r.name}</div>
-                  <div class="rmeta">${r.meta}</div>
+              <div class="rec-row">
+                <div></div>
+                <div></div>
+                <div class="rec-title">
+                  <div class="rname">${r.title}</div>
+                  <div class="rmeta">${r.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
                 </div>
-                <div class="rscore">${r.score}</div>
+                <div class="rec-col rec-album">${r.album}</div>
+                <div class="rec-col">${r.year ?? '—'}</div>
+                <div class="rec-col">${r.duration}</div>
+                <div class="rec-col rec-bpm">${r.bpm ?? '—'}</div>
+                <div></div>
               </div>
               ${buildMiniListenLinks(r.links)}
             </div>
@@ -103,8 +119,12 @@ function computeRecommendations(tracks) {
     const scored = tracks
       .filter(other => other !== song)
       .map(other => ({
-        name: other.title,
-        meta: `${other.album} · ${other.genres[0]}`,
+        title: other.title,
+        album: other.album,
+        year: other.year,
+        duration: other.duration,
+        bpm: other.bpm,
+        genres: other.genres,
         score: Math.round(similarityScore(song, other) * 100) / 100,
         links: other.links,
       }))
