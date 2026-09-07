@@ -17,14 +17,14 @@
    1. ROOT VARIABLES
    ============================================================ */
 :root {
-  --black: #0A0A0A;
-  --surface: #161314;
-  --surface-hover: #1E1A1B;
+  --black: #121212;
+  --surface: #1A1A1A;
+  --surface-hover: #242424;
   --red: #FF1E2E;
   --red-deep: #7A1226;
-  --text: #F2EFE9;
-  --text-dim: #9C938C;
-  --border: #2A2425;
+  --text: #E8E6E3;
+  --text-dim: #8A8A8A;
+  --border: #2A2A2A;
 }
 
 /* ============================================================
@@ -241,118 +241,136 @@ header p {
 /* ============================================================
    8. TRACKLIST
    ============================================================ */
+.listen-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  align-self: center;
+}
+ 
 .track {
   border-bottom: 1px solid var(--border);
 }
-
+ 
 #tracklist {
   max-height: 60vh;
   overflow-y: auto;
 }
-
+ 
+.track-header {
+  display: grid;
+  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
+  gap: 16px;
+  padding: 8px 4px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+ 
 .track-row {
   display: grid;
-  grid-template-columns: 3px 40px 1fr auto auto 20px;
+  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
   align-items: center;
   gap: 16px;
-  padding: 16px 4px;
+  padding: 12px 4px;
   cursor: pointer;
 }
-
+ 
 .track-row:hover {
   background: var(--surface-hover);
 }
-
-.tag-bar {
-  height: 28px;
-  background: var(--red);
+ 
+.col-index {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  text-align: center;
 }
-
+ 
+.col-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+ 
 .art {
   width: 40px;
   height: 40px;
   object-fit: cover;
   border-radius: 3px;
+  flex-shrink: 0;
 }
-
+ 
 .track-info {
   min-width: 0;
 }
-
+ 
 .track-info .title {
-  font-family: 'Special Elite', monospace;
-  font-weight: 400;
-  font-size: 1.2rem;
-  letter-spacing: 0.01em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
-.track-info .title {
-  font-family: 'Special Elite', monospace;
-  font-weight: 400;
-  font-size: 1.2rem;
-  letter-spacing: 0.01em;
-}
-
+ 
 .track-info .meta {
   color: var(--text-dim);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 2px;
 }
-
+ 
 .genre-tag {
   display: inline-block;
   padding: 1px 7px;
   margin-right: 6px;
-  font-size: 0.9rem;
+  font-size: 0.72rem;
   color: var(--red);
   border: 1px solid var(--red-deep);
   background: rgba(196,30,58,0.08);
   white-space: nowrap;
 }
-
-.bpm {
+ 
+.col-album,
+.col-year,
+.col-duration,
+.col-bpm {
+  color: var(--text-dim);
+  font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
-  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ 
+.col-bpm {
   color: var(--red);
-  text-align: right;
-  white-space: nowrap;
 }
-
-.bpm .unit {
-  color: var(--text-dim);
-  font-size: 0.9rem;
-  margin-left: 3px;
-}
-
-.tempo-tier {
-  font-size: 0.9rem;
-  color: var(--text-dim);
-  text-align: right;
-  white-space: nowrap;
-}
-
+ 
 .chevron {
   color: var(--text-dim);
   transition: transform 0.2s;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
-
+ 
 .track.open .chevron {
   transform: rotate(90deg);
   color: var(--red);
 }
-
+ 
 /* ── "If you liked this" recommendations panel ── */
 .recs {
   display: none;
   padding: 4px 4px 22px 19px;
   position: relative;
 }
-
+ 
 .track.open .recs {
   display: block;
 }
-
+ 
 .recs::before {
   content: '';
   position: absolute;
@@ -362,57 +380,77 @@ header p {
   width: 1px;
   background: var(--border);
 }
-
+ 
 .recs-label {
-  font-size: 0.9rem;
+  font-size: 0.72rem;
   color: var(--text-dim);
   margin: 8px 0 10px 16px;
 }
-
+ 
 .rec-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
   padding: 8px 0 8px 16px;
   position: relative;
+  border-bottom: 1px solid var(--border);
 }
-
+ 
+.rec-item:last-child {
+  border-bottom: none;
+}
+ 
+a.rec-item {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+ 
+a.rec-item:hover {
+  background: var(--surface-hover);
+}
+ 
 .rec-item::before {
   content: '';
   position: absolute;
   left: -1px;
-  top: 50%;
+  top: 20px;
   width: 14px;
   height: 1px;
   background: var(--border);
 }
-
+ 
+.rec-item-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+ 
 .rec-item .rname {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Special Elite', monospace;
   font-weight: 400;
   font-size: 1.02rem;
 }
-
+ 
 .rec-item .rmeta {
-  font-size: 0.9rem;
+  font-size: 0.76rem;
   color: var(--text-dim);
 }
-
+ 
 .rec-item .rscore {
   margin-left: auto;
-  font-size: 0.9rem;
+  font-size: 0.76rem;
   color: var(--red);
   font-variant-numeric: tabular-nums;
 }
-
+ 
 .listen-links {
   display: flex;
+  align-items: center;
   gap: 8px;
   padding: 0 0 16px 16px;
 }
-
+ 
 .listen-link {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--text);
   background: transparent;
@@ -421,12 +459,22 @@ header p {
   text-decoration: none;
   transition: border-color 0.15s, color 0.15s;
 }
-
+ 
 .listen-link:hover {
   border-color: var(--red);
   color: var(--red);
 }
-
+ 
+.listen-links.mini {
+  padding: 6px 0 0;
+  gap: 6px;
+}
+ 
+.listen-link.mini {
+  font-size: 0.68rem;
+  padding: 3px 8px;
+}
+ 
 /* ============================================================
    9. FOOTER
    ============================================================ */
@@ -475,15 +523,60 @@ footer {
     max-width: none;
   }
 
-  .track-row {
-    grid-template-columns: 3px 40px 1fr 20px;
-    grid-template-areas: "bar art info chevron";
-    align-items: center;
-  }
+.track-header {
+  display: grid;
+  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
+  gap: 16px;
+  padding: 8px 4px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
 
-  .tag-bar {
-    grid-area: bar;
-  }
+.track-row:hover {
+  background: var(--surface-hover);
+}
+
+.col-index {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.col-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.col-album,
+.col-year,
+.col-duration,
+.col-bpm {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+.col-bpm {
+  color: var(--red);
+}
+
+.track-row {
+  display: grid;
+  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 4px;
+  cursor: pointer;
+}
+
+ .tag-bar {
+  height: 28px;
+  background: var(--border);
+}
 
   .art {
     grid-area: art;
