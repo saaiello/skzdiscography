@@ -59,9 +59,45 @@ function renderTracks(list) {
 
 let allTracks = [];
 
+function genreSimilarity(a, b) {
+  const shared = a.genres.filter(g => b.genres.includes(g)).length;
+  const maxPossible = Math.max(a.genres.length, b.genres.length);
+  return shared / maxPossible;
+}
+
+function bpmSimilarity(a, b) {
+  if (a.bpm == null || b.bpm == null) return 0.5; // neutral score when BPM is missing
+  const diff = Math.abs(a.bpm - b.bpm);
+  const maxDiff = 100; // beyond a 100 BPM gap, treat songs as fully dissimilar
+  return Math.max(0, 1 - diff / maxDiff);
+}
+
+function similarityScore(a, b) {
+  const genreWeight = 0.6;
+  const bpmWeight = 0.4;
+  return genreSimilarity(a, b) * genreWeight + bpmSimilarity(a, b) * bpmWeight;
+}
+
+function computeRecommendations(tracks) {
+  tracks.forEach(song => {
+    const scored = tracks
+      .filter(other => other !== song)
+      .map(other => ({
+        name: other.title,
+        meta: `${other.album} · ${other.genres[0]}`,
+        score: Math.round(similarityScore(song, other) * 100) / 100,
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3);
+
+    song.recs = scored;
+  });
+}
+
 fetch('data/songs.json')
   .then(res => res.json())
   .then(data => {
+    computeRecommendations(data);
     allTracks = data;
     renderTracks(allTracks);
   })
