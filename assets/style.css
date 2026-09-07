@@ -467,7 +467,7 @@ footer {
 
 .disclaimer {
   text-align: center;
-  font-family: 'Special Elite', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: var(--text-dim);
   font-size: 0.85rem;
   margin-top: 8px;
@@ -475,7 +475,7 @@ footer {
 
 .contact {
   text-align: center;
-  font-family: 'Special Elite', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: var(--text-dim);
   font-size: 0.85rem;
   margin-top: 12px;
@@ -586,4 +586,81 @@ footer {
     font-size: 0.9rem;
     padding: 1px 5px;
   }
+}
+
+/* ============================================================
+   11. SEARCH BOX
+   ============================================================ */
+
+#search-box {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 7px 14px;
+  margin-left: auto;
+  min-width: 180px;
+}
+#search-box::placeholder {
+  color: var(--text-dim);
+}
+#search-box:focus {
+  outline: none;
+  border-color: var(--red);
+}
+
+/* ============================================================
+   12. FORM
+   ============================================================ */
+
+.correction-form {
+  padding: 24px 24px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 24px;
+}
+
+.correction-form h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.correction-form p {
+  color: var(--text-dim);
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.correction-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.correction-form input,
+.correction-form select,
+.correction-form textarea {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+}
+
+.correction-form textarea {
+  resize: vertical;
+}
+
+.correction-form button {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--black);
+  background: var(--red);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: flex-start;
 }

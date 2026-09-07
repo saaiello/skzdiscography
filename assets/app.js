@@ -157,19 +157,34 @@ document.getElementById('tracklist').addEventListener('click', (e) => {
   if (!wasOpen) track.classList.add('open');
 });
 
+let currentGenre = 'All genres';
+let currentSearch = '';
+
+function applyFilters() {
+  let filtered = allTracks;
+
+  if (currentGenre !== 'All genres') {
+    filtered = filtered.filter(t => t.genres.includes(currentGenre));
+  }
+
+  if (currentSearch.trim() !== '') {
+    const query = currentSearch.trim().toLowerCase();
+    filtered = filtered.filter(t => t.title.toLowerCase().includes(query));
+  }
+
+  renderTracks(filtered);
+}
+
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
-
-    const selectedGenre = tab.textContent.trim();
-
-    if (selectedGenre === 'All genres') {
-      renderTracks(allTracks);
-      return;
-    }
-
-    const filtered = allTracks.filter(t => t.genres.includes(selectedGenre));
-    renderTracks(filtered);
+    currentGenre = tab.textContent.trim();
+    applyFilters();
   });
+});
+
+document.getElementById('search-box').addEventListener('input', (e) => {
+  currentSearch = e.target.value;
+  applyFilters();
 });
