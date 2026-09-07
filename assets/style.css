@@ -1,0 +1,512 @@
+/* ============================================================
+   TABLE OF CONTENTS
+   ------------------------------------------------------------
+   1. Root variables
+   2. Reset
+   3. Page background
+   4. Main container
+   5. Wordmark + EQ bars
+   6. Hero / header
+   7. Content wrapper + genre filters
+   8. Tracklist
+   9. Footer
+   10. Responsive — small/medium screens
+   ============================================================ */
+
+/* ============================================================
+   1. ROOT VARIABLES
+   ============================================================ */
+:root {
+  --black: #0A0A0A;
+  --surface: #161314;
+  --surface-hover: #1E1A1B;
+  --red: #FF1E2E;
+  --red-deep: #7A1226;
+  --text: #F2EFE9;
+  --text-dim: #9C938C;
+  --border: #2A2425;
+}
+
+/* ============================================================
+   2. RESET
+   ============================================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   3. PAGE BACKGROUND
+   ============================================================ */
+body {
+  background-color: var(--black);
+  background-image: url("grunge-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-height: 100vh;
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ============================================================
+   4. MAIN CONTAINER
+   ============================================================ */
+.game-frame {
+  width: 100%;
+  max-width: 1100px;
+  background: var(--black);
+  border: 2px solid var(--red);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow:
+    0 0 40px rgba(255, 59, 84, 0.3),
+    0 0 80px rgba(122, 18, 38, 0.35);
+}
+
+/* ============================================================
+   5. WORDMARK + EQ BARS
+   ============================================================ */
+.mark-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 24px 0;
+  margin-bottom: 24px;
+}
+
+.mark {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.4rem;
+  color: var(--text);
+  display: inline-block;
+  transform: rotate(-3deg);
+  margin-bottom: 0;
+  letter-spacing: 0.01em;
+}
+
+.mark-accent {
+  color: var(--red);
+}
+
+.eq {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 22px;
+}
+
+.eq span {
+  display: block;
+  width: 3px;
+  background: var(--red);
+  border-radius: 1px;
+  animation: bounce 1.4s ease-in-out infinite;
+}
+
+.eq span:nth-child(1) {
+  height: 40%;
+  animation-delay: -1.1s;
+}
+
+.eq span:nth-child(2) {
+  height: 90%;
+  animation-delay: -0.7s;
+}
+
+.eq span:nth-child(3) {
+  height: 60%;
+  animation-delay: -1.3s;
+}
+
+.eq span:nth-child(4) {
+  height: 100%;
+  animation-delay: -0.3s;
+}
+
+.eq span:nth-child(5) {
+  height: 55%;
+  animation-delay: -0.9s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eq span {
+    animation: none;
+  }
+}
+
+/* ============================================================
+   6. HERO / HEADER
+   ============================================================ */
+header {
+  position: relative;
+  padding: 24px 24px 44px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(10,10,10,0.75), rgba(10,10,10,0.75)),
+    url("hero-placeholder.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, var(--red) 0%, transparent 60%);
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: clamp(2.6rem, 7vw, 4.2rem);
+  line-height: 1.05;
+  max-width: 12ch;
+  margin-left: auto;
+  text-align: right;
+}
+
+h1 .accent {
+  color: var(--red);
+}
+
+header p {
+  font-family: 'Special Elite', monospace;
+  margin-top: 18px;
+  margin-left: auto;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 44ch;
+  text-align: right;
+}
+
+/* ============================================================
+   7. CONTENT WRAPPER + GENRE FILTERS
+   ============================================================ */
+.wrap {
+  max-width: none;
+  margin: 0;
+  padding: 0 24px 40px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 40px 0 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.tab:hover {
+  border-color: var(--text-dim);
+  color: var(--text);
+}
+
+.tab.active {
+  color: var(--black);
+  background: var(--red);
+  border-color: var(--red);
+}
+
+/* ============================================================
+   8. TRACKLIST
+   ============================================================ */
+.track {
+  border-bottom: 1px solid var(--border);
+}
+
+#tracklist {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.track-row {
+  display: grid;
+  grid-template-columns: 3px 40px 1fr auto auto 20px;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 4px;
+  cursor: pointer;
+}
+
+.track-row:hover {
+  background: var(--surface-hover);
+}
+
+.tag-bar {
+  height: 28px;
+  background: var(--red);
+}
+
+.art {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.track-info {
+  min-width: 0;
+}
+
+.track-info .title {
+  font-family: 'Special Elite', monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+}
+
+.track-info .title {
+  font-family: 'Special Elite', monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+}
+
+.track-info .meta {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.genre-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  margin-right: 6px;
+  font-size: 0.9rem;
+  color: var(--red);
+  border: 1px solid var(--red-deep);
+  background: rgba(196,30,58,0.08);
+  white-space: nowrap;
+}
+
+.bpm {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+  color: var(--red);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.bpm .unit {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin-left: 3px;
+}
+
+.tempo-tier {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.chevron {
+  color: var(--text-dim);
+  transition: transform 0.2s;
+  font-size: 0.9rem;
+}
+
+.track.open .chevron {
+  transform: rotate(90deg);
+  color: var(--red);
+}
+
+/* ── "If you liked this" recommendations panel ── */
+.recs {
+  display: none;
+  padding: 4px 4px 22px 19px;
+  position: relative;
+}
+
+.track.open .recs {
+  display: block;
+}
+
+.recs::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 22px;
+  width: 1px;
+  background: var(--border);
+}
+
+.recs-label {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  margin: 8px 0 10px 16px;
+}
+
+.rec-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0 8px 16px;
+  position: relative;
+}
+
+.rec-item::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  width: 14px;
+  height: 1px;
+  background: var(--border);
+}
+
+.rec-item .rname {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 1.02rem;
+}
+
+.rec-item .rmeta {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.rec-item .rscore {
+  margin-left: auto;
+  font-size: 0.9rem;
+  color: var(--red);
+  font-variant-numeric: tabular-nums;
+}
+
+.listen-links {
+  display: flex;
+  gap: 8px;
+  padding: 0 0 16px 16px;
+}
+
+.listen-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.listen-link:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+/* ============================================================
+   9. FOOTER
+   ============================================================ */
+footer {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.disclaimer {
+  text-align: center;
+  font-family: 'Special Elite', monospace;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Special Elite', monospace;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 12px;
+}
+
+.contact a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   10. RESPONSIVE — SMALL / MEDIUM SCREENS
+   ============================================================ */
+@media (max-width: 768px) {
+  h1 {
+    font-size: clamp(1.8rem, 8vw, 2.6rem);
+  }
+
+  header p {
+    font-size: 1rem;
+    max-width: none;
+  }
+
+  .track-row {
+    grid-template-columns: 3px 40px 1fr 20px;
+    grid-template-areas: "bar art info chevron";
+    align-items: center;
+  }
+
+  .tag-bar {
+    grid-area: bar;
+  }
+
+  .art {
+    grid-area: art;
+  }
+
+  .track-info {
+    grid-area: info;
+  }
+
+  .chevron {
+    grid-area: chevron;
+    align-self: center;
+  }
+
+  .track-info .title {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .genre-tag {
+    font-size: 0.68rem;
+    padding: 1px 5px;
+  }
+}

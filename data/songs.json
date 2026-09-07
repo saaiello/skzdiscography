@@ -1,0 +1,4554 @@
+[
+  {
+    "title": "Hellevator",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 78,
+    "tier": "Slow",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hellevator/1608256722?i=1608256723&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "BEWARE",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 98,
+    "tier": "Slow",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/beware/1608257176?i=1608257182&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Spread my wings",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/spread-my-wings/1608257176?i=1608257185&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "YAYAYA",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 132,
+    "tier": "Mid",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/yayaya/1608257176?i=1608257190&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "GLOW",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 90,
+    "tier": "Slow",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/glow/1608245331?i=1608245469&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "School Life",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/school-life/1608245331?i=1608245471&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "4419",
+    "album": "Mixtape",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 86,
+    "tier": "Slow",
+    "art": "assets/covers/mixtape.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/4419/1608245331?i=1608245476&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "NOT!",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 170,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/not/1608250038?i=1608250042&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "District 9",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 90,
+    "tier": "Slow",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/district-9/1608250038?i=1608250044&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mirror",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 186,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mirror/1608250038?i=1608250306&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Awaken",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 164,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/awaken/1608256994?i=1608256996&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ROCK",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/rock/1608256994?i=1608257003&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Grow up",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 174,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/grow-up/1608250038?i=1608250420",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "3rd eye",
+    "album": "I am NOT",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 100,
+    "tier": "Mid",
+    "art": "assets/covers/i-am-not.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/3rd-eye/1608256994?i=1608257008&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "WHO?",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 170,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/who/1608247182?i=1608247183&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "My Pace",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 155,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/my-pace/1608257176?i=1608257390&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Voices",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/voices/1608257176?i=1608257394&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Question",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/question/1608247182?i=1608247191&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Insomnia",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 168,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/insomnia/1608256994?i=1608257236&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "M.I.A.",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/m-i-a/1608257176?i=1608257625&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Awkward Silence",
+    "album": "I am WHO",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 200,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-who.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/awkward-silence/1608247182?i=1608247202&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "YOU.",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/you/1608249409?i=1608249416&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "I am YOU",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "Ballad",
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/i-am-you/1608249409?i=1608249420&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "My Side",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/my-side/1608256994?i=1608257242&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hero's Soup",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/heros-soup/1608249409?i=1608249425&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Get Cool",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/get-cool/1608257176?i=1608257630&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "N/S",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/n-s/1608256994?i=1608257245&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "0325",
+    "album": "I am YOU",
+    "year": 2018,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 170,
+    "tier": "Up-tempo",
+    "art": "assets/covers/i-am-you.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/0325/1608249409?i=1608249891&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Entrance",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/entrance/1608250336?i=1608250340&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MIROH",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/miroh/1608250336?i=1608250342&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Victory Song",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/victory-song/1608257176?i=1608257633&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Maze of Memories",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/maze-of-memories/1608256994?i=1608257251&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Boxer",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 155,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/boxer/1608257176?i=1608257637&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Chronosaurus",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 165,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/chronosaurus/1608257176?i=1608257640&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "19",
+    "album": "Cle 1: MIROH",
+    "year": 2019,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/cle-1-miroh.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/19/1608257176?i=1608257886&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Road Not Taken",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/road-not-taken/1608249558?i=1608249561&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Side Effects",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/side-effects/1608249558?i=1608249563&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "TMT",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/tmt/1608257176?i=1608257895&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape #1",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mixtape-1/1608249558?i=1608249572",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape #2",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/mixtape-2/1608249573",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape #3",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "Acoustic/Lo-fi",
+      "Pop"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/mixtape-3/1608249672",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape #4",
+    "album": "Cle 2: YELLOW WOOD",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/cle-2-yellow-wood.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/mixtape-4/1608249673",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "STOP",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/stop/1608249431?i=1608249433&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Double Knot",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/double-knot/1608248433?i=1608248587&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Levanter",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/levanter/1608249431?i=1608249440&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Booster",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/booster/1608249431?i=1608249442&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Astronaut",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/astronaut/1608257176?i=1608257914&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Sunshine",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "Acoustic/Lo-fi",
+      "Hip-Hop"
+    ],
+    "bpm": 85,
+    "tier": "Slow",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/sunshine/1608249431?i=1608249449&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "You Can STAY",
+    "album": "Cle: LEVANTER",
+    "year": 2019,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 126,
+    "tier": "Mid",
+    "art": "assets/covers/cle-levanter.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/you-can-stay/1608249431?i=1608249450&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "GO LIVE",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/go-live/1608257477?i=1608257482&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "God's Menu",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 157,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/gods-menu/1608251775?i=1608251966&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Easy",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/easy/1608257477?i=1608257486&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Pacemaker",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/pacemaker/1608257477?i=1608257488&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Airplane",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/airplane/1608257477?i=1608257493&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Another Day",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/another-day/1608257477?i=1608257494&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Phobia",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/phobia/1608257477?i=1608257828&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Blueprint",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Other"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/blueprint/1608257477?i=1608257831&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "TA",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ta/1608251775?i=1608252136&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Haven",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/haven/1608251775?i=1608252137&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "TOP (Tower of God OP)",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/top-tower-of-god-op/1608257477?i=1608257841&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "SLUMP (Tower of God OP)",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/slump-tower-of-god-ed/1608257477?i=1608257842&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape: Gone Days",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mixtape-gone-days/1608257477?i=1608257845&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape: On Track",
+    "album": "GO LIVE",
+    "year": 2020,
+    "genres": [
+      "Ballad",
+      "Hip-Hop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/go-live.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mixtape-on-track/1608257477?i=1608257849&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "The Tortoise and the Hare",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/the-tortoise-and-the-hare/1608251775?i=1608251776&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Back Door",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 108,
+    "tier": "Mid",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/back-door/1608251775?i=1608251779&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "B Me",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/b-me/1608251775?i=1608251790&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Any",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/any/1608251775?i=1608251795&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Ex",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ex/1608251775?i=1608251947&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "We Go",
+    "album": "IN LIFE",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/in-life.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/we-go-bang-chan-changbin-han/1608251775?i=1608251950&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ALL IN",
+    "album": "All IN",
+    "year": 2020,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/all-in.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/all-in/1533769004?i=1533769007&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "FAM",
+    "album": "All IN",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/all-in.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/fam-korean-ver/1657537947?i=1657537951&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "One Day",
+    "album": "All IN",
+    "year": 2020,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/all-in.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/one-day/1533769004?i=1533769013&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CHEESE",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/cheese/1608255571?i=1608255575&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Thunderous",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/thunderous/1608255571?i=1608255955&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "DOMINO",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/domino/1608255571?i=1608255956&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "SSICK",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ssick/1608255571?i=1608255958&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "The View",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 124,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/the-view/1608255571?i=1608256147&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Sorry, I Love You",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/sorry-i-love-you/1608255571?i=1608256158&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Silent Cry",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/silent-cry/1608255571?i=1608256165&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Secret Secret",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/secret-secret/1608255571?i=1608256167&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Star Lost",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/star-lost/1608255571?i=1608256173&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Red Lights",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/red-lights-bang-chan-hyunjin/1608255571?i=1608256175&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Surfin'",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/surfin-lee-know-changbin-felix/1608255571?i=1608256361&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Gone Away",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/gone-away-han-seungmin-i-n/1608255571?i=1608256372&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "WOLFGANG",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/wolfgang/1608255571?i=1608256377&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape: OH",
+    "album": "NOEASY",
+    "year": 2021,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/noeasy.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mixtape-oh/1608255571?i=1608256378&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Christmas EveL",
+    "album": "Christmas EveL",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/christmas-evel.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/christmas-evel/1608247192?i=1608247201&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "24 to 25",
+    "album": "Christmas EveL",
+    "year": 2021,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/christmas-evel.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/24-to-25/1608247192?i=1608247237&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Winter Falls",
+    "album": "Christmas EveL",
+    "year": 2021,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/christmas-evel.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/winter-falls/1608247192?i=1608247240&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Scars",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/scars/1671113799?i=1671114347&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Awaken (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 164,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/awaken/1608256994?i=1608256996&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ROCK (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/rock/1608256994?i=1608257003&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "3rd Eye (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 100,
+    "tier": "Mid",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/3rd-eye/1608256994?i=1608257008&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Placebo",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/placebo/1608256994?i=1608257232&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Insomnia (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop",
+      "Pop"
+    ],
+    "bpm": 168,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/insomnia/1608256994?i=1608257236&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Behind The Light",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/behind-the-light/1608256994?i=1608257241&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "My Side (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/my-side/1608256994?i=1608257242&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "N/S (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/n-s/1608256994?i=1608257245&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Maze of Memories (SKZ2021)",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/maze-of-memories/1608256994?i=1608257251&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Broken Compass",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/broken-compass/1608256994?i=1608257453&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hoodie Season",
+    "album": "SKZ 2021",
+    "year": 2021,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/skz-2021.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hoodie-season/1608256994?i=1608257456&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "VENOM",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/venom/1609666698?i=1609666699&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MANIAC",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/maniac/1609666698?i=1609666702&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Charmer",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/charmer/1609666698?i=1609666704&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "FREEZE",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/freeze/1609666698?i=1609666705&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Lonely St.",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lonely-st/1609666698?i=1609666708&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Waiting For Us",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/waiting-for-us-bang-chan-lee-know-seungmin-i-n/1609666698?i=1609666711&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Muddy Water",
+    "album": "ODDINARY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/oddinary.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/muddy-water-changbin-hyunjin-han-felix/1609666698?i=1609666713&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CASE 143",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/case-143/1644436101?i=1644436109&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CHILL",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/chill/1644436101?i=1644436116&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Give Me Your TMI",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/give-me-your-tmi/1644436101?i=1644436117&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "SUPER BOARD",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 155,
+    "tier": "Up-tempo",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/super-board/1644436101?i=1644436450&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "3RACHA",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/3racha-bang-chan-changbin-han/1644436101?i=1644436452&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "TASTE",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/taste-lee-know-hyunjin-felix/1644436101?i=1644436455&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Can't Stop",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/cant-stop-seungmin-i-n/1644436101?i=1644436552&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Circus",
+    "album": "MAXIDENT",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/maxident.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/circus/1627761785?i=1627761820&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "FAM (Replay)",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/fam-korean-ver/1657537947?i=1657537951&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Connected",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/connected-bang-chan/1657537947?i=1657537962&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Limbo",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/limbo-lee-know/1657537947?i=1657538087&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Doodle",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/doodle-changbin/1657537947?i=1657538097&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Love Untold",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/love-untold-hyunjin/1657537947?i=1657538102&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "RUN",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/run-it/6781751949?i=6781751954&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Deep End",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/deep-end-felix/1657537947?i=1657538114&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Stars and Raindrops",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad",
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/stars-and-raindrops-seungmin/1657537947?i=1657538447&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hug Me",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hug-me-i-n/1657537947?i=1657538450&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "#LoveSTAY",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad",
+      "Pop"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lovestay/1657537947?i=1657538455&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ZONE",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/zone-bang-chan-changbin-han/1657538464",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Close",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/close-han/1657537947?i=1657538469&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Streetlight",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/streetlight-changbin-feat-bang-chan/1657537947?i=1657538839&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "I hate to admit",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/i-hate-to-admit-bang-chan/1657537947?i=1657538845&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "I GOT IT",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/i-got-it-han/1657537947?i=1657538849&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Miss you",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Ballad",
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/miss-you-hyunjin/1657537947?i=1657539020&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Maknae on Top",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/maknae-on-top-i-n-feat-bang-chan-changbin/1657537947?i=1657539031&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Alien",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/alien-han/1657537947?i=1657539035&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Because",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/because-changbin-felix/1657537947?i=1657539207&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Piece of a Puzzle",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/piece-of-a-puzzle-changbin-seungmin/1657537947?i=1657539215&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Wish You Back",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/wish-you-back-han/1657537947?i=1657539378&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "HaPpY",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/happy-han/1657537947?i=1657539388&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Up All Night",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/up-all-night-bang-chan-changbin-felix-seungmin/1657537947?i=1657539395&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Drive",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/drive-bang-chan-lee-know/1657537947?i=1657539400&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Ice.cream",
+    "album": "SKZ-REPLAY",
+    "year": 2022,
+    "genres": [
+      "Acoustic/Lo-fi",
+      "R&B/Soul"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ice-cream-hyunjin/1657537947?i=1657539796&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "THE SOUND",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/the-sound/1667452618?i=1667452619&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Battle Ground",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/battle-ground-korean-version/6790903804?i=6790903806&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Lost Me",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lost-me/1671113799?i=1671114127&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "DLMLU",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/dlmlu/1671113799?i=1671114128&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Novel",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/novel/1671113799?i=1671114130&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Scars (The Sound)",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/scars/1671113799?i=1671114347&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "There",
+    "album": "THE SOUND",
+    "year": 2023,
+    "genres": [
+      "Ballad",
+      "R&B/Soul"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/the-sound.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/there/1671083320?i=1671083776&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hall of Fame",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hall-of-fame/1686489462?i=1686489687&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "S-CLASS",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 100,
+    "tier": "Mid",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/s-class/1686489462?i=1686489691&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ITEM",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/item/1686489462?i=1686489694&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "SuperBowl",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/super-bowl/1686489695",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "TOPLINE",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 95,
+    "tier": "Slow",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/topline-feat-tiger-jk/1686489462?i=1686489701&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "DLC",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/dlc/1686489462?i=1686489702&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "GET LIT",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/get-lit/1686489462?i=1686489704&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Collision",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/collision/1686489462?i=1686490165&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "FNF",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/fnf/1686489462?i=1686490168&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Youtiful",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/youtiful/1686489462?i=1686490305&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mixtape: Time Out",
+    "album": "5-STAR",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/5-star.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mixtape-time-out/1686489462?i=1686490321&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MEGAVERSE",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/megaverse/1710644819?i=1710644824&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "LALALALA",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lalalala/1710644819?i=1710644832&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "BLIND SPOT",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/blind-spot/1710644819?i=1710644834&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "COMFLEX",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/comflex/1710644819?i=1710645138&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Cover Me",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/cover-me/1710644819?i=1710645143&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Leave",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Acoustic/Lo-fi",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/leave/1710644819?i=1710645149&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Social path",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/social-path-feat-lisa-korean-ver/1710644819?i=1710645154&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "LALALALA (rock version)",
+    "album": "ROCKSTAR",
+    "year": 2023,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/rockstar.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lalalala/1710644819?i=1710644832&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MOUNTAINS",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "Other"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mountains/1752739357?i=1752739367&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Chk Chk Boom",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 100,
+    "tier": "Mid",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/chk-chk-boom/1752739357?i=1752739619&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "JJAM",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/jjam/1752739357?i=1752739626&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "I Like It",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop",
+      "Pop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/i-like-it/1752739357?i=1752739632&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Runners",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/runners/1752739357?i=1752739821&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "twilight",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/twilight/1752739357?i=1752739826&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Stray Kids (ATE)",
+    "album": "ATE",
+    "year": 2024,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 170,
+    "tier": "Up-tempo",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/stray-kids/1752739832",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Giant",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/giant-korean-ver/1799804279",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "NIGHT",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/night/1770980094?i=1770980098&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Falling Up",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "R&B/Soul",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/falling-up/1770980106?i=1770980275&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "WHY?",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/why/1739055026?i=1739055027&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Saiyan",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/saiyan/1777033478?i=1777033699&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Aiwokuretanoninaze",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "R&B/Soul",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/aiwokuretanoninaze/1777033478?i=1777033700&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Christmas Love",
+    "album": "GIANT",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/christmas-love/1777033478?i=1777033703&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Walking on Water",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/walkin-on-water/1780412269",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Bounce Back",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/bounce-back/1780411692?i=1780412286&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "U",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 81,
+    "tier": "Slow",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/u-feat-tablo/1780411692?i=1780412292&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Railway",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "R&B/Soul",
+      "EDM/Electronic"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/railway-bang-chan/1780411692?i=1780412483&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Unfair",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/unfair-felix/1780411692?i=1780412490&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "HALLUCINATION",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop",
+      "Pop"
+    ],
+    "bpm": 166,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hallucination-i-n/1780411692?i=1780412493&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Youth",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/youth-lee-know/1780411692?i=1780412495&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "So Good",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/so-good-hyunjin/1780411692?i=1780412500&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ULTRA",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ultra-changbin/1780411692?i=1780412508&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hold my hand",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hold-my-hand-han/1780411692?i=1780412926&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "As we are",
+    "album": "HOP",
+    "year": 2024,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/hop.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/as-we-are-seungmin/1780411692?i=1780413023&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "GIANT (Korean Ver.)",
+    "album": "Mixtape dominATE",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 85,
+    "tier": "Slow",
+    "art": "assets/covers/mixtape-dominate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/giant-korean-ver/1799804279",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Burnin' Tires",
+    "album": "Mixtape dominATE",
+    "year": 2025,
+    "genres": [
+      "Rock/Punk/Metal",
+      "EDM/Electronic"
+    ],
+    "bpm": 150,
+    "tier": "Up-tempo",
+    "art": "assets/covers/mixtape-dominate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/burnin-tires/1876749913?i=1876749923&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Truman",
+    "album": "Mixtape dominATE",
+    "year": 2025,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/mixtape-dominate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/truman-han-felix/1799804285",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ESCAPE",
+    "album": "Mixtape dominATE",
+    "year": 2025,
+    "genres": [
+      "R&B/Soul",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/mixtape-dominate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/escape-bang-chan-hyunjin/1799804292",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CINEMA",
+    "album": "Mixtape dominATE",
+    "year": 2025,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 144,
+    "tier": "Up-tempo",
+    "art": "assets/covers/mixtape-dominate.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/cinema-lee-know-seungmin/1799804294",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hollow",
+    "album": "Hollow",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/hollow.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hollow/1815865407?i=1815865710&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Parade",
+    "album": "Hollow",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hollow.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/parade/1815865407?i=1815865730&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Never Alone",
+    "album": "Hollow",
+    "year": 2025,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 155,
+    "tier": "Up-tempo",
+    "art": "assets/covers/hollow.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/never-alone/1815865407?i=1815865731&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "just a little",
+    "album": "Hollow",
+    "year": 2025,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/hollow.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/just-a-little/1815865407?i=1815865733&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Fate",
+    "album": "Hollow",
+    "year": 2025,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/hollow.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/fate/1815865407?i=1815865735&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CEREMONY",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ceremony/1827247172?i=1827247176&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "BLEEP",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 92,
+    "tier": "Slow",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/bleep/1827247172?i=1827247174&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "CREED",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/creed/1827247172?i=1827247184&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MESS",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mess/1827247172?i=1827247279&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "In My Head",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 160,
+    "tier": "Up-tempo",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/in-my-head/1827247172?i=1827247281&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Half Time",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/half-time/1827247172?i=1827247284&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Phoenix",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 170,
+    "tier": "Up-tempo",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/phoenix/1827247172?i=1827247288&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Ghost",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/ghost/1827247172?i=1827247289&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "0801",
+    "album": "KARMA",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/karma.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/0801/1827247172?i=1827247292&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Do It",
+    "album": "Do It",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 100,
+    "tier": "Mid",
+    "art": "assets/covers/do-it.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/do-it/1846266203?i=1846266205&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "DIVINE",
+    "album": "Do It",
+    "year": 2025,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 90,
+    "tier": "Slow",
+    "art": "assets/covers/do-it.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/divine/1846266203?i=1846266206&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Holiday",
+    "album": "Do It",
+    "year": 2025,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 168,
+    "tier": "Up-tempo",
+    "art": "assets/covers/do-it.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/holiday/1846266203?i=1846266208&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Photobook",
+    "album": "Do It",
+    "year": 2025,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/do-it.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/photobook/1846266203?i=1846266209&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Battle Ground (Korean Version)",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/battle-ground-korean-version/6790903804?i=6790903806&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Roman Empire",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "EDM/Electronic"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/roman-empire/6790903804?i=6790903811&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "LOVER",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "Hip-Hop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/lover/6790904093",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Raining Stars",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/raining-stars/6790904103",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "The Little Things",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad",
+      "Pop"
+    ],
+    "bpm": 105,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/the-little-things/6790904111",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Goodbye",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 118,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/goodbye/6790903804?i=6790904207&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Still here",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad",
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/still-here/6790904226",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Into The Current",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/into-the-current/6790903804?i=6790904232&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "MIC&BRUSH",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 112,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mic-brush/6790903804?i=6790904326&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "PERFUME",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 118,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/perfume/6790903804?i=6790904328&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "BABY",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 122,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/baby/6790904333",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Don't Say",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 155,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/dont-say/6790903804?i=6790904337&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "My Name",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/my-name/6790904341",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "REV IT UP",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/rev-it-up/6790903804?i=6790904347&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Limbo (Live)",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/limbo-lee-know/1657537947?i=1657538087&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hug Me (Live)",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Acoustic/Lo-fi"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hug-me-i-n/1657537947?i=1657538450&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "STAY",
+    "album": "SKZ Replay 2026 pt 1",
+    "year": 2026,
+    "genres": [
+      "Ballad",
+      "R&B/Soul"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/skz-replay-2026-pt-1.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/stay/1882902387?i=1882902388&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "RUN IT",
+    "album": "This & That",
+    "year": 2026,
+    "genres": [
+      "Hip-Hop",
+      "Pop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/run-it/6781751949?i=6781751954&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Extraordinary You",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 118,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/%EB%81%9D%EB%82%98%EC%A7%80-%EC%95%8A%EC%9D%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/1486765377?i=1486765381&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Hello Stranger",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/hello-stranger/1523814791?i=1523814792&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Going Dumb",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 126,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/going-dumb-with-stray-kids/1556994908?i=1556994922&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "All My Life",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/all-my-life-stray-kids-remix/1711872050?i=1711872071&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Lose My Breath",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/lose-my-breath/207341054?i=207341067&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "SLASH",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/slash/1756819950?i=1756819951&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Updraft",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 138,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/updraft/1847582871",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "GENIE",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/genie/1842787114?i=1842787115&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "R&B ME",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 87,
+    "tier": "Slow",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/r-b-me-feat-changbin/1834308165?i=1834308168&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Middle School 2nd Year",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 140,
+    "tier": "Up-tempo",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/middle-school-2nd-year-respect-everyones-universe/1780301115?i=1780301116&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Mirror Mirror",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Hip-Hop"
+    ],
+    "bpm": 142,
+    "tier": "Up-tempo",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/mirror-mirror-feat-changbin-stray-kids/1590513659?i=1590513969&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "You...Like the wind",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad",
+      "Pop"
+    ],
+    "bpm": 112,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/you-like-the-wind-feat-changbin/1629812220?i=1629812842&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "START!",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/start/1807495433?i=1807495434&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "ReawakeR",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 128,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/reawaker-feat-felix-of-stray-kids/1783371195?i=1783371197&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "NO PROBLEM",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Pop"
+    ],
+    "bpm": 122,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "All I Want Is You",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 110,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/all-i-want-is-you/1843034925?i=1843034926&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "My Destiny",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 108,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/my-destiny/1798896173?i=1798896176&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Destiny",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 112,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/destiny/1740047738?i=1740047739&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Phobia (Seungmin)",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/phobia/1608257477?i=1608257828&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Close to You",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 115,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/close-to-you/1650335895?i=1650336138&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Here Always",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Ballad"
+    ],
+    "bpm": 105,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/here-always/1589042706?i=1589042707&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Rush",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 124,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Always Love",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Acoustic/Lo-fi",
+      "Pop"
+    ],
+    "bpm": 118,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Genie (Han Felix I.N)",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 135,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/genie/1842787114?i=1842787115&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "In The Dark",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "EDM/Electronic"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/in-the-dark/1847992539?i=1847992545&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Endless Sun",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 126,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/endless-sun/1878241204?i=1878241209&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Let It Show",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 122,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/let-it-show/1893923448",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "can't love",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 125,
+    "tier": "Mid",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/song/cant-love/6778757122",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "back to life",
+    "album": "Singles/Solos/Features",
+    "year": null,
+    "genres": [
+      "Rock/Punk/Metal",
+      "Pop"
+    ],
+    "bpm": 148,
+    "tier": "Up-tempo",
+    "art": "assets/covers/singles-solos-features.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "https://music.apple.com/us/album/back-to-life/6774310702?i=6774310705&uo=4",
+      "youtube": ""
+    },
+    "recs": []
+  }
+]
