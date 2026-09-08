@@ -11,9 +11,9 @@
     "tier": "Slow",
     "art": "assets/covers/mixtape.jpg",
     "links": {
-      "spotify": "",
+      "spotify": "https://open.spotify.com/track/1fBirzBj8XiiXFlhUMGoAl?si=d61a1fb018834e15",
       "appleMusic": "https://music.apple.com/us/album/hellevator/1608256722?i=1608256723&uo=4",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=AdfIfFGCqgo"
     },
     "recs": []
   },

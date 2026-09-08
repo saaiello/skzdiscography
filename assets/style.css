@@ -257,7 +257,7 @@ header p {
   grid-template-columns: 40px 40px 3fr 2fr 70px 80px 70px 20px;
   gap: 16px;
   padding: 8px 4px;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--text-dim);
   border-bottom: 1px solid var(--border);
   text-transform: uppercase;
@@ -319,7 +319,7 @@ header p {
 
 .track-info .meta {
   color: var(--text-dim);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 2px;
 }
 
@@ -338,7 +338,7 @@ header p {
 .col-bpm,
 .rec-col {
   color: var(--text-dim);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   overflow: hidden;
@@ -358,7 +358,7 @@ header p {
 .chevron {
   color: var(--text-dim);
   transition: transform 0.2s;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .track.open .chevron {
@@ -381,7 +381,7 @@ header p {
 }
 
 .recs-label {
-  font-size: 0.72rem;
+  font-size: 0.9rem;
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -434,12 +434,12 @@ header p {
 }
 
 .listen-label {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--text-dim);
 }
 
 .listen-link {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text);
   background: transparent;
@@ -453,7 +453,7 @@ header p {
   color: var(--red);
 }
 .listen-link.mini {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   padding: 4px 9px;
 }
  
@@ -501,91 +501,41 @@ footer {
   }
 
   header p {
-    font-size: 1rem;
+    font-size: 0.85rem;
     max-width: none;
   }
 
-.track-header {
-  display: grid;
-  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
-  gap: 16px;
-  padding: 8px 4px;
-  font-size: 0.9rem;
-  color: var(--text-dim);
-  border-bottom: 1px solid var(--border);
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.track-row:hover {
-  background: var(--surface-hover);
-}
-
-.col-index {
-  color: var(--text-dim);
-  font-size: 0.85rem;
-  text-align: center;
-}
-
-.col-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 0;
-}
-
-.col-album,
-.col-year,
-.col-duration,
-.col-bpm {
-  color: var(--text-dim);
-  font-size: 0.85rem;
-  font-variant-numeric: tabular-nums;
-}
-.col-bpm {
-  color: var(--red);
-}
-
-.track-row {
-  display: grid;
-  grid-template-columns: 40px 3fr 2fr 70px 80px 70px 20px;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 4px;
-  cursor: pointer;
-}
-
- .tag-bar {
-  height: 28px;
-  background: var(--border);
-}
-
-.art {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 3px;
-}
-
-.track-info,
-.rec-title {
-  min-width: 0;
-}
-
-  .chevron {
-    grid-area: chevron;
-    align-self: center;
+  .track-header {
+    display: none;
   }
 
-  .track-info .title {
-    font-size: 1rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  .col-index,
+  .col-album,
+  .col-year,
+  .col-duration,
+  .col-bpm,
+  .rec-col {
+    display: none;
+  }
+
+  .track-row {
+    grid-template-columns: 40px 1fr 20px;
+  }
+
+  .rec-row {
+    grid-template-columns: 40px 1fr 20px;
+  }
+
+  .listen-row {
+    grid-template-columns: 40px 1fr 20px;
+  }
+
+  .listen-content {
+    grid-column: 2 / span 2;
   }
 
   .genre-tag {
-    font-size: 0.9rem;
+    font-size: 0.68rem;
     padding: 1px 5px;
   }
 }
@@ -596,7 +546,7 @@ footer {
 
 #search-box {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--text);
   background: transparent;
   border: 1px solid var(--border);
@@ -665,4 +615,11 @@ footer {
   padding: 10px 20px;
   cursor: pointer;
   align-self: flex-start;
+}
+
+.listen-icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: -2px;
+  margin-right: 4px;
 }

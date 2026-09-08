@@ -1,13 +1,7 @@
-function buildListenLinks(links) {
-  const platforms = [
-    { key: 'spotify', label: 'Spotify' },
-    { key: 'appleMusic', label: 'Apple Music' },
-    { key: 'youtube', label: 'YouTube' },
-  ];
-
-  const buttons = platforms
+function buildLinkRow(links, platformList, labelText, isMini) {
+  const buttons = platformList
     .filter(p => links[p.key])
-    .map(p => `<a class="listen-link" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
+    .map(p => `<a class="listen-link${isMini ? ' mini' : ''}" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
     .join('');
 
   if (!buttons) return '';
@@ -15,31 +9,25 @@ function buildListenLinks(links) {
     <div class="listen-row">
       <div></div>
       <div></div>
-      <div class="listen-content"><span class="listen-label">Listen here:</span>${buttons}</div>
+      <div class="listen-content"><span class="listen-label">${labelText}</span>${buttons}</div>
     </div>
   `;
 }
 
-function buildMiniListenLinks(links) {
-  const platforms = [
-    { key: 'spotify', label: 'Spotify' },
-    { key: 'appleMusic', label: 'Apple Music' },
-    { key: 'youtube', label: 'YouTube' },
-  ];
+const listenPlatforms = [
+  { key: 'spotify', label: 'Spotify' },
+  { key: 'appleMusic', label: 'Apple Music' },
+];
+const watchPlatforms = [
+  { key: 'youtube', label: 'Music Video' },
+];
 
-  const buttons = platforms
-    .filter(p => links[p.key])
-    .map(p => `<a class="listen-link mini" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
-    .join('');
+function buildListenLinks(links, isMini = false) {
+  return buildLinkRow(links, listenPlatforms, 'Listen here:', isMini);
+}
 
-  if (!buttons) return '';
-  return `
-    <div class="listen-row">
-      <div></div>
-      <div></div>
-      <div class="listen-content"><span class="listen-label">Listen here:</span>${buttons}</div>
-    </div>
-  `;
+function buildWatchLink(links, isMini = false) {
+  return buildLinkRow(links, watchPlatforms, 'Watch here:', isMini);
 }
 
 function renderTracks(list) {
@@ -66,6 +54,7 @@ function renderTracks(list) {
       </div>
       <div class="recs">
         ${buildListenLinks(t.links)}
+        ${buildWatchLink(t.links)}
         ${t.recs.length ? `
           <div class="recs-label">If you liked this, try —</div>
           ${t.recs.map(r => `
@@ -83,7 +72,8 @@ function renderTracks(list) {
                 <div class="rec-col rec-bpm">${r.bpm ?? '—'}</div>
                 <div></div>
               </div>
-              ${buildMiniListenLinks(r.links)}
+              ${buildListenLinks(r.links, true)}
+              ${buildWatchLink(r.links, true)}
             </div>
           `).join('')}
         ` : ''}
