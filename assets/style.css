@@ -23,7 +23,7 @@
   --black: #121212;
   --surface: #1A1A1A;
   --surface-hover: #242424;
-  --red: #FF1E2E;
+  --red: #f21b29;
   --red-deep: #7A1226;
   --text: #E8E6E3;
   --text-dim: #aeaeae;
@@ -94,7 +94,7 @@ body {
 }
 
 .mark-accent {
-  color: var(--black);
+  color: var(--red);
 }
 
 .eq {
@@ -160,7 +160,7 @@ header {
   overflow: hidden;
   background-size: cover;
   background-image:
-    linear-gradient(rgba(10,10,10,0.25), rgba(10,10,10,0.25)),
+    linear-gradient(rgba(10,10,10,0.7), rgba(10,10,10,0.7)),
     url("skzhero2.png");
   background-position: center;
   min-height: 520px;
@@ -219,7 +219,7 @@ h1 {
 }
 
 h1 .accent {
-  color: var(--black);
+  color: var(--red);
 }
 
 header p {
@@ -643,7 +643,7 @@ footer {
 #search-box {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.1rem;
-  color: var(--black);
+  color: var(--text);
   background: transparent;
   border: 1px solid #fff;
   padding: 14px 18px;
@@ -651,7 +651,7 @@ footer {
   border-radius: 8px;
 }
 #search-box::placeholder {
-  color: rgba(0,0,0,0.5);
+  color: rgba(250, 250, 250, 0.799);
 }
 #search-box:focus {
   outline: none;
