@@ -581,6 +581,10 @@ footer {
     max-width: 320px;
   }
 
+  body {
+    background-attachment: scroll;
+  }
+
   body #search-box {
     background: rgba(0,0,0,0.55);
     color: #fff;
