@@ -428,8 +428,14 @@ header p {
 .listen-content {
   grid-column: 3 / span 6;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 8px;
+}
+
+.link-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   flex-wrap: wrap;
 }
 

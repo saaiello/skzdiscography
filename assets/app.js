@@ -24,8 +24,8 @@ function buildLinksRow(links, isMini = false) {
       <div></div>
       <div></div>
       <div class="listen-content">
-        ${listenButtons ? `<span class="listen-label">Listen here:</span>${listenButtons}` : ''}
-        ${watchButtons ? `<span class="listen-label">Watch here:</span>${watchButtons}` : ''}
+        ${listenButtons ? `<div class="link-group"><span class="listen-label">Listen here:</span>${listenButtons}</div>` : ''}
+        ${watchButtons ? `<div class="link-group"><span class="listen-label">Watch here:</span>${watchButtons}</div>` : ''}
       </div>
     </div>
   `;
