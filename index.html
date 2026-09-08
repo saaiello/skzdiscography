@@ -5,22 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stray Kids Discography</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Special+Elite&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <div class="game-frame">
-<div class="mark-row">
-  <div class="eq">
-    <span></span><span></span><span></span><span></span><span></span>
-  </div>
-  <div class="mark">Stray<span class="mark-accent">Kidz</span></div>
-</div>
+
 <header>
+  <div class="mark-row">
+    <div class="eq">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="mark">SKZ<span class="mark-accent">discography</span></div>
+  </div>
+  <nav class="hero-nav">
+    <a href="#tracklist-section">Browse</a>
+    <a href="#" id="how-it-works-link">How This Site Works</a>
+    <a href="#contact-section">Contact</a>
+  </nav>
   <h1>same <span class="accent">chaos</span>,<br>different track.</h1>
-  <p>Every Stray Kids release, sorted by genre and tempo. Pick a song, find what sits next to it.</p>
+  <div class="hero-search">
+    <input type="text" id="search-box" placeholder="Search for a song...">
+  </div>
 </header>
+
 <div class="wrap">
   <div class="filters">
     <button class="tab active">All genres</button>
@@ -30,10 +39,9 @@
     <button class="tab">R&amp;B/Soul</button>
     <button class="tab">Rock/Punk/Metal</button>
     <button class="tab">Pop</button>
-    <input type="text" id="search-box" placeholder="Search for a song...">
   </div>
 
-  <div class="tracklist-scroll">
+  <div class="tracklist-scroll" id="tracklist-section">
     <div class="track-header">
       <div>#</div>
       <div></div>
@@ -46,7 +54,7 @@
     <div id="tracklist"></div>
   </div>
 
-  <div class="correction-form">
+  <div class="correction-form" id="correction-section">
     <h3>Spot something wrong?</h3>
     <p>Wrong genre, missing song, bad link — let me know.</p>
     <form action="YOUR_FORMSPREE_URL_HERE" method="POST">
@@ -68,11 +76,17 @@
   </div>
 
   <footer></footer>
-  <p class="disclaimer">Not affiliated with JYP Entertainment or Stray Kids. This is a fan-made project with no profit intent.</p>
-  <p class="contact">Questions? Suggestions? Just wanna yap? Email: <a href="mailto:samaiello06@gmail.com">samaiello06@gmail.com</a></p>
+  <p class="disclaimer">Not affiliated with JYP Entertainment or Stray Kids. This is a fan-made project.</p>
+  <p class="contact" id="contact-section">Questions? Suggestions? Just wanna yap? Email: <a href="mailto:samaiello06@gmail.com">samaiello06@gmail.com</a></p>
 </div>
 </div>
 
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-card" id="modal-card"></div>
+</div>
+
+<div class="modal-overlay" id="info-modal-overlay">
+  <div class="modal-card" id="info-modal-card"></div>
+</div>
+
 <script src="assets/app.js"></script>
-</body>
-</html>

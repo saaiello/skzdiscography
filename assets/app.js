@@ -6,7 +6,7 @@ const watchPlatforms = [
   { key: 'youtube', label: 'Music Video' },
 ];
 
-function buildLinksRow(links, isMini = false) {
+function buildLinksContent(links, isMini = false) {
   const listenButtons = listenPlatforms
     .filter(p => links[p.key])
     .map(p => `<a class="listen-link${isMini ? ' mini' : ''}" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
@@ -20,18 +20,13 @@ function buildLinksRow(links, isMini = false) {
   if (!listenButtons && !watchButtons) return '';
 
   return `
-    <div class="listen-row">
-      <div></div>
-      <div></div>
-      <div class="listen-content">
-        ${listenButtons ? `<div class="link-group"><span class="listen-label">Listen here:</span>${listenButtons}</div>` : ''}
-        ${watchButtons ? `<div class="link-group"><span class="listen-label">Watch here:</span>${watchButtons}</div>` : ''}
-      </div>
-    </div>
+    ${listenButtons ? `<div class="link-group"><span class="listen-label">Listen here:</span>${listenButtons}</div>` : ''}
+    ${watchButtons ? `<div class="link-group"><span class="listen-label">Watch here:</span>${watchButtons}</div>` : ''}
   `;
 }
 
 function renderTracks(list) {
+  currentList = list;
   const container = document.getElementById('tracklist');
   container.innerHTML = '';
 
@@ -53,36 +48,13 @@ function renderTracks(list) {
         <div class="col-bpm">${t.bpm ?? '—'}</div>
         <div class="chevron">&#9656;</div>
       </div>
-      <div class="recs">
-        ${buildLinksRow(t.links)}
-        ${t.recs.length ? `
-          <div class="recs-label">If you liked this, try —</div>
-          ${t.recs.map(r => `
-            <div class="rec-item">
-              <div class="rec-row">
-                <div class="rec-index-spacer"></div>
-                <img class="art" src="${r.art}" alt="${r.album} cover" onerror="this.style.visibility='hidden'">
-                <div class="rec-title">
-                  <div class="rname">${r.title}</div>
-                  <div class="rmeta">${r.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
-                </div>
-                <div class="rec-col rec-album">${r.album}</div>
-                <div class="rec-col">${r.year ?? '—'}</div>
-                <div class="rec-col">${r.duration}</div>
-                <div class="rec-col rec-bpm">${r.bpm ?? '—'}</div>
-                <div class="rec-chevron-spacer"></div>
-              </div>
-              ${buildLinksRow(r.links, true)}
-            </div>
-          `).join('')}
-        ` : ''}
-      </div>
     `;
     container.appendChild(el);
   });
 }
 
 let allTracks = [];
+let currentList = [];
 
 function genreSimilarity(a, b) {
   const shared = a.genres.filter(g => b.genres.includes(g)).length;
@@ -91,9 +63,9 @@ function genreSimilarity(a, b) {
 }
 
 function bpmSimilarity(a, b) {
-  if (a.bpm == null || b.bpm == null) return 0.5; // neutral score when BPM is missing
+  if (a.bpm == null || b.bpm == null) return 0.5;
   const diff = Math.abs(a.bpm - b.bpm);
-  const maxDiff = 100; // beyond a 100 BPM gap, treat songs as fully dissimilar
+  const maxDiff = 100;
   return Math.max(0, 1 - diff / maxDiff);
 }
 
@@ -115,8 +87,8 @@ function computeRecommendations(tracks) {
         bpm: other.bpm,
         genres: other.genres,
         art: other.art,
-        score: Math.round(similarityScore(song, other) * 100) / 100,
         links: other.links,
+        score: Math.round(similarityScore(song, other) * 100) / 100,
       }))
       .sort((a, b) => b.score - a.score)
       .slice(0, 3);
@@ -124,6 +96,88 @@ function computeRecommendations(tracks) {
     song.recs = scored;
   });
 }
+
+function findTrackByTitle(title) {
+  return allTracks.find(t => t.title === title);
+}
+
+function openModal(track) {
+  const card = document.getElementById('modal-card');
+
+  card.innerHTML = `
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <div class="modal-header">
+      <img class="modal-art" src="${track.art}" alt="${track.album} cover" onerror="this.style.visibility='hidden'">
+      <div>
+        <div class="modal-title">${track.title}</div>
+        <div class="modal-meta">${track.album}${track.year ? ' · ' + track.year : ''} · ${track.duration}${track.bpm ? ' · ' + track.bpm + ' BPM' : ''}</div>
+        <div class="modal-meta">${track.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
+      </div>
+    </div>
+    <div class="modal-links">
+      ${buildLinksContent(track.links)}
+    </div>
+    ${track.recs.length ? `
+      <div class="modal-recs-label">If you liked this, try —</div>
+      ${track.recs.map(r => `
+        <div class="modal-rec-item" data-title="${r.title}">
+          <img class="modal-rec-art" src="${r.art}" alt="${r.album} cover" onerror="this.style.visibility='hidden'">
+          <div class="modal-rec-info">
+            <div class="rname">${r.title}</div>
+            <div class="rmeta">${r.album}${r.year ? ' · ' + r.year : ''}</div>
+          </div>
+        </div>
+      `).join('')}
+    ` : ''}
+  `;
+
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+  if (e.target.id === 'modal-overlay' || e.target.classList.contains('modal-close')) {
+    closeModal();
+    return;
+  }
+  const recItem = e.target.closest('.modal-rec-item');
+  if (recItem) {
+    const nextTrack = findTrackByTitle(recItem.dataset.title);
+    if (nextTrack) openModal(nextTrack);
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeModal();
+    document.getElementById('info-modal-overlay').classList.remove('open');
+  }
+});
+
+document.getElementById('how-it-works-link').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('info-modal-card').innerHTML = `
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <div class="modal-title">How this site works</div>
+    <p class="modal-meta" style="margin-top: 16px; line-height: 1.6;">
+      Every Stray Kids release is tagged by genre and tempo (BPM). Click any song to see its full details,
+      plus a ranked list of similar tracks based on shared genres and matching tempo — click any of those
+      to jump straight to that song's own page. Use the genre filters or search bar to narrow things down.
+    </p>
+  `;
+  document.getElementById('info-modal-overlay').classList.add('open');
+});
+
+document.getElementById('info-modal-overlay').addEventListener('click', (e) => {
+  if (e.target.id === 'info-modal-overlay' || e.target.classList.contains('modal-close')) {
+    document.getElementById('info-modal-overlay').classList.remove('open');
+  }
+});
 
 fetch('data/songs.json')
   .then(res => res.json())
@@ -141,10 +195,8 @@ fetch('data/songs.json')
 document.getElementById('tracklist').addEventListener('click', (e) => {
   const row = e.target.closest('.track-row');
   if (!row) return;
-  const track = row.closest('.track');
-  const wasOpen = track.classList.contains('open');
-  document.querySelectorAll('.track.open').forEach(t => t.classList.remove('open'));
-  if (!wasOpen) track.classList.add('open');
+  const index = parseInt(row.dataset.i, 10);
+  openModal(currentList[index]);
 });
 
 let currentGenre = 'All genres';

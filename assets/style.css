@@ -13,6 +13,7 @@
    10. Responsive — small/medium screens
    11. Search
    12. Form Submission
+   13. Song Modal
    ============================================================ */
 
 /* ============================================================
@@ -43,7 +44,6 @@
    ============================================================ */
 body {
   background-color: var(--black);
-  background-image: url("grunge-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -62,28 +62,30 @@ body {
   width: 100%;
   max-width: 1100px;
   background: var(--black);
-  border: 2px solid var(--red);
+  border: 2px solid #fff;
   border-radius: 6px;
   overflow: hidden;
   box-shadow:
-    0 0 40px rgba(255, 59, 84, 0.3),
-    0 0 80px rgba(122, 18, 38, 0.35);
+    0 0 40px rgba(255, 255, 255, 0.15),
+    0 0 80px rgba(255, 255, 255, 0.1);
 }
 
 /* ============================================================
    5. WORDMARK + EQ BARS
    ============================================================ */
 .mark-row {
+  position: absolute;
+  top: 20px;
+  left: 24px;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 24px 24px 0;
-  margin-bottom: 24px;
+  z-index: 2;
 }
 
 .mark {
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: var(--text);
   display: inline-block;
   transform: rotate(-3deg);
@@ -92,19 +94,18 @@ body {
 }
 
 .mark-accent {
-  color: var(--red);
+  color: var(--black);
 }
 
 .eq {
   display: flex;
   align-items: flex-end;
-  gap: 3px;
-  height: 22px;
+  gap: 4px;
+  height: 32px;
 }
-
 .eq span {
   display: block;
-  width: 3px;
+  width: 4px;
   background: var(--red);
   border-radius: 1px;
   animation: bounce 1.4s ease-in-out infinite;
@@ -157,12 +158,12 @@ header {
   position: relative;
   padding: 24px 24px 44px;
   overflow: hidden;
-  background-image:
-    linear-gradient(rgba(10,10,10,0.75), rgba(10,10,10,0.75)),
-    url("hero-placeholder.webp");
   background-size: cover;
+  background-image:
+    linear-gradient(rgba(10,10,10,0.25), rgba(10,10,10,0.25)),
+    url("skzhero2.png");
   background-position: center;
-  min-height: 320px;
+  min-height: 520px;
 }
 
 header::after {
@@ -172,32 +173,64 @@ header::after {
   right: 0;
   bottom: 0;
   height: 1px;
-  background: linear-gradient(90deg, var(--red) 0%, transparent 60%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, transparent 60%);
+}
+
+.hero-nav {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  z-index: 2;
+}
+.hero-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: opacity 0.15s;
+}
+.hero-nav a:hover {
+  opacity: 0.7;
+}
+
+.hero-nav a:last-child {
+  border: 1px solid #fff;
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+.hero-search {
+  margin-top: 24px;
+  max-width: 400px;
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Anton', sans-serif;
   font-weight: 400;
-  font-size: clamp(2.6rem, 7vw, 4.2rem);
-  line-height: 1.05;
-  max-width: 12ch;
-  margin-left: auto;
-  text-align: right;
+  font-size: clamp(2.8rem, 7.5vw, 4.6rem);
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  max-width: none;
+  margin-top: 100px;
 }
 
 h1 .accent {
-  color: var(--red);
+  color: var(--black);
 }
 
 header p {
-  font-family: 'Special Elite', monospace;
-  margin-top: 18px;
-  margin-left: auto;
-  color: var(--text-dim);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  max-width: 44ch;
-  text-align: right;
+  font-size: 0.85rem;
+  text-align: center;
+  max-width: none;
+  margin-top: 20px;
+  background: rgba(255,255,255,0.85);
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 /* ============================================================
@@ -236,8 +269,8 @@ header p {
 
 .tab.active {
   color: var(--black);
-  background: var(--red);
-  border-color: var(--red);
+  background: #fff;
+  border-color: #fff;
 }
 
 /* ============================================================
@@ -325,9 +358,9 @@ header p {
 
 .genre-tag {
   display: inline-block;
-  padding: 1px 1px;
+  padding: 1px 7px;
   margin-right: 6px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--text-dim);
   white-space: nowrap;
 }
@@ -462,7 +495,7 @@ header p {
   font-size: 0.9rem;
   padding: 4px 9px;
 }
- 
+
 /* ============================================================
    9. FOOTER
    ============================================================ */
@@ -502,13 +535,59 @@ footer {
    10. RESPONSIVE — SMALL / MEDIUM SCREENS
    ============================================================ */
 @media (max-width: 768px) {
+  .mark-row {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .hero-nav {
+    position: static;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  .hero-nav a {
+    font-size: 0.9rem;
+  }
+
+  header {
+    position: relative;
+    padding-top: 16px;
+    min-height: 420px;
+    padding-bottom: 90px;
+    background-position: center 15%;
+  }
+
   h1 {
-    font-size: clamp(1.8rem, 8vw, 2.6rem);
+    width: 100%;
+    margin-top: 0;
+    font-size: clamp(1.8rem, 9vw, 2.6rem);
+    text-align: center;
   }
 
   header p {
-    font-size: 0.85rem;
-    max-width: none;
+    display: none;
+  }
+
+  .hero-search {
+    position: absolute;
+    bottom: 30px;
+    left: 59%;
+    transform: translateX(-50%);
+    width: 85%;
+    max-width: 320px;
+  }
+
+  body #search-box {
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  body #search-box::placeholder {
+    color: rgba(255,255,255,0.6);
   }
 
   .track-header {
@@ -520,9 +599,7 @@ footer {
   .col-year,
   .col-duration,
   .col-bpm,
-  .rec-col,
-  .rec-index-spacer,
-  .rec-chevron-spacer {
+  .rec-col {
     display: none;
   }
 
@@ -530,14 +607,9 @@ footer {
     grid-template-columns: 40px 1fr 20px;
   }
 
-  .rec-row {
-    grid-template-columns: 40px 1fr 20px;
-  }
-
   .listen-row {
     grid-template-columns: 40px 1fr 20px;
   }
-
   .listen-content {
     grid-column: 2 / span 2;
   }
@@ -548,41 +620,22 @@ footer {
   }
 }
 
-  .listen-label,
-  .listen-link {
-    font-size: 0.72rem;
-  }
-  .listen-link {
-    padding: 5px 10px;
-  }
-
-  .listen-link.mini {
-    font-size: 0.72rem;
-    padding: 3px 7px;
-  }
-
-  #search-box {
-  width: 100%;
-  margin-left: 0;
-  margin-top: 8px;
-}
-
 /* ============================================================
    11. SEARCH BOX
    ============================================================ */
 
 #search-box {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.9rem;
-  color: var(--text);
+  font-size: 1.1rem;
+  color: var(--black);
   background: transparent;
-  border: 1px solid var(--border);
-  padding: 7px 14px;
-  margin-left: auto;
-  min-width: 180px;
+  border: 1px solid #fff;
+  padding: 14px 18px;
+  width: 80%;
+  border-radius: 8px;
 }
 #search-box::placeholder {
-  color: var(--text-dim);
+  color: rgba(0,0,0,0.5);
 }
 #search-box:focus {
   outline: none;
@@ -644,9 +697,132 @@ footer {
   align-self: flex-start;
 }
 
-.listen-icon {
-  width: 14px;
-  height: 14px;
-  vertical-align: -2px;
-  margin-right: 4px;
+/* ============================================================
+   13. SONG MODAL
+   ============================================================ */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.open {
+  display: flex;
+}
+
+.modal-card {
+  background: var(--black);
+  border: 2px solid var(--red);
+  border-radius: 8px;
+  max-width: 680px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 28px;
+  position: relative;
+  box-shadow: 0 0 40px rgba(255, 59, 84, 0.3);
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+.modal-close:hover {
+  color: var(--red);
+}
+
+.modal-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.modal-art {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.modal-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.modal-meta {
+  color: var(--text-dim);
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.modal-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.modal-recs-label {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.modal-rec-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.modal-rec-item:hover {
+  opacity: 0.7;
+}
+.modal-rec-item:last-child {
+  border-bottom: none;
+}
+
+.modal-rec-art {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.modal-rec-info {
+  flex: 1;
+  min-width: 0;
+}
+.modal-rec-info .rname {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.modal-rec-info .rmeta {
+  font-size: 1rem;
+  color: var(--text-dim);
+  margin-top: 2px;
 }
