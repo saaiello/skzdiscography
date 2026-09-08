@@ -1,19 +1,3 @@
-function buildLinkRow(links, platformList, labelText, isMini) {
-  const buttons = platformList
-    .filter(p => links[p.key])
-    .map(p => `<a class="listen-link${isMini ? ' mini' : ''}" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
-    .join('');
-
-  if (!buttons) return '';
-  return `
-    <div class="listen-row">
-      <div></div>
-      <div></div>
-      <div class="listen-content"><span class="listen-label">${labelText}</span>${buttons}</div>
-    </div>
-  `;
-}
-
 const listenPlatforms = [
   { key: 'spotify', label: 'Spotify' },
   { key: 'appleMusic', label: 'Apple Music' },
@@ -22,12 +6,29 @@ const watchPlatforms = [
   { key: 'youtube', label: 'Music Video' },
 ];
 
-function buildListenLinks(links, isMini = false) {
-  return buildLinkRow(links, listenPlatforms, 'Listen here:', isMini);
-}
+function buildLinksRow(links, isMini = false) {
+  const listenButtons = listenPlatforms
+    .filter(p => links[p.key])
+    .map(p => `<a class="listen-link${isMini ? ' mini' : ''}" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
+    .join('');
 
-function buildWatchLink(links, isMini = false) {
-  return buildLinkRow(links, watchPlatforms, 'Watch here:', isMini);
+  const watchButtons = watchPlatforms
+    .filter(p => links[p.key])
+    .map(p => `<a class="listen-link${isMini ? ' mini' : ''}" href="${links[p.key]}" target="_blank" rel="noopener noreferrer">${p.label}</a>`)
+    .join('');
+
+  if (!listenButtons && !watchButtons) return '';
+
+  return `
+    <div class="listen-row">
+      <div></div>
+      <div></div>
+      <div class="listen-content">
+        ${listenButtons ? `<span class="listen-label">Listen here:</span>${listenButtons}` : ''}
+        ${watchButtons ? `<span class="listen-label">Watch here:</span>${watchButtons}` : ''}
+      </div>
+    </div>
+  `;
 }
 
 function renderTracks(list) {
@@ -53,14 +54,13 @@ function renderTracks(list) {
         <div class="chevron">&#9656;</div>
       </div>
       <div class="recs">
-        ${buildListenLinks(t.links)}
-        ${buildWatchLink(t.links)}
+        ${buildLinksRow(t.links)}
         ${t.recs.length ? `
           <div class="recs-label">If you liked this, try —</div>
           ${t.recs.map(r => `
             <div class="rec-item">
               <div class="rec-row">
-                <div></div>
+                <div class="rec-index-spacer"></div>
                 <img class="art" src="${r.art}" alt="${r.album} cover" onerror="this.style.visibility='hidden'">
                 <div class="rec-title">
                   <div class="rname">${r.title}</div>
@@ -70,10 +70,9 @@ function renderTracks(list) {
                 <div class="rec-col">${r.year ?? '—'}</div>
                 <div class="rec-col">${r.duration}</div>
                 <div class="rec-col rec-bpm">${r.bpm ?? '—'}</div>
-                <div></div>
+                <div class="rec-chevron-spacer"></div>
               </div>
-              ${buildListenLinks(r.links, true)}
-              ${buildWatchLink(r.links, true)}
+              ${buildLinksRow(r.links, true)}
             </div>
           `).join('')}
         ` : ''}

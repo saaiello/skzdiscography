@@ -514,7 +514,9 @@ footer {
   .col-year,
   .col-duration,
   .col-bpm,
-  .rec-col {
+  .rec-col,
+  .rec-index-spacer,
+  .rec-chevron-spacer {
     display: none;
   }
 
