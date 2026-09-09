@@ -2923,7 +2923,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5vMQIOhLw85H8WYIf1kEWw",
       "appleMusic": "https://music.apple.com/us/album/mixtape-time-out/1686489462?i=1686490321&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/ukIGxgdbqqI?si=LTZIIwOey4j7pGMa"
     },
     "recs": []
   },
@@ -2942,7 +2942,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5Q1tv4GTxP3IJeGMOKdrFO",
       "appleMusic": "https://music.apple.com/us/album/megaverse/1710644819?i=1710644824&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/JqwPCzJnYyY?si=begbtapfTpzS2u4l"
     },
     "recs": []
   },
@@ -2960,7 +2960,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/08H8CT32rALUZvL8TE4ruD",
       "appleMusic": "https://music.apple.com/us/album/lalalala/1710644819?i=1710644832&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/dBDkYofMUs4?si=_e44XFSIsgAi0Jgc"
     },
     "recs": []
   },
@@ -2979,7 +2979,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6uVpG6300TODQGjOAtXJjh",
       "appleMusic": "https://music.apple.com/us/album/blind-spot/1710644819?i=1710644834&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Wx4hglGjwEs?si=eeVSmrxMFPRMmVkY"
     },
     "recs": []
   },
@@ -2997,7 +2997,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2Rz7TEBsIXbI1tKsfQOCjI",
       "appleMusic": "https://music.apple.com/us/album/comflex/1710644819?i=1710645138&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/ifK5RIx1CjE?si=ANLD4pa-c0Czzvll"
     },
     "recs": []
   },
@@ -3015,7 +3015,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5dUjBnP5zrWpWA5RGrr73g",
       "appleMusic": "https://music.apple.com/us/album/cover-me/1710644819?i=1710645143&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/gfhhFsG-oms?si=EsTDH7WycSCoJBHV"
     },
     "recs": []
   },
@@ -3034,7 +3034,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2zPqhdPGNCwzXnvSvj7WgD",
       "appleMusic": "https://music.apple.com/us/album/leave/1710644819?i=1710645149&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/T_6oPwsJgxI?si=kW4_AxHaAKH3eICr"
     },
     "recs": []
   },
@@ -3052,7 +3052,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0fkL0fOhEzRK8WFe2ixt2d",
       "appleMusic": "https://music.apple.com/us/album/social-path-feat-lisa-korean-ver/1710644819?i=1710645154&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/M0c04xfBtyc?si=IZ16pjvIj6sw2lD3"
     },
     "recs": []
   },
@@ -3070,7 +3070,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/08H8CT32rALUZvL8TE4ruD",
       "appleMusic": "https://music.apple.com/us/album/lalalala/1710644819?i=1710644832&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/osFQWe1oX9c?si=tpHf20cfPriGslUi"
     },
     "recs": []
   },
@@ -3088,7 +3088,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0MvgUGhKvrStBo2XsPuwt6",
       "appleMusic": "https://music.apple.com/us/album/mountains/1752739357?i=1752739367&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/80H_-aHTUws?si=0v6OCtH6FT0AAeNu"
     },
     "recs": []
   },
@@ -3107,7 +3107,26 @@
     "links": {
       "spotify": "https://open.spotify.com/track/09keT5ocFhEd5W5HidiUNq",
       "appleMusic": "https://music.apple.com/us/album/chk-chk-boom/1752739357?i=1752739619&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/0P0aQreFs8w?si=GtJZYL9tez4tCckt"
+    },
+    "recs": []
+  },
+  {
+    "title": "Chk Chk Boom (Festival Version)",
+    "album": "ATE",
+    "year": 2024,
+    "duration": "2:34",
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 123,
+    "tier": "Mid",
+    "art": "assets/covers/ate.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/5yye6RvxPOo8YU0fYWQpNn?si=5e19991e34b84d5a",
+      "appleMusic": "https://music.apple.com/us/song/chk-chk-boom-festival-ver/1752739836",
+      "youtube": "https://youtu.be/dT3SzfFOMCI?si=sdbVF8eU0J6qW8FY"
     },
     "recs": []
   },
@@ -3125,7 +3144,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6ojfWEW5oBSyXQqO9G72iM",
       "appleMusic": "https://music.apple.com/us/album/jjam/1752739357?i=1752739626&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/7ytGFxD-FcI?si=cPkgwyExH8dDMPLZ"
     },
     "recs": []
   },
@@ -3144,7 +3163,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/04A4WyCRyHQ8Nb3u3IsfzH",
       "appleMusic": "https://music.apple.com/us/album/i-like-it/1752739357?i=1752739632&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Oz7v7TP_-3k?si=OtnIcZh6dNeuMAay"
     },
     "recs": []
   },
@@ -3162,7 +3181,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4tIAHpF340zdoCCIBFcyit",
       "appleMusic": "https://music.apple.com/us/album/runners/1752739357?i=1752739821&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/2kvAETm2Q4I?si=dpzKWndFDFqMY8LH"
     },
     "recs": []
   },
@@ -3180,7 +3199,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/1T0hdoMSjzoKUPbKRmrDg3",
       "appleMusic": "https://music.apple.com/us/album/twilight/1752739357?i=1752739826&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/GBoHUDOc4Qo?si=lqXqUbIn1-EkXczJ"
     },
     "recs": []
   },
@@ -3198,7 +3217,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/08H8CT32rALUZvL8TE4ruD",
       "appleMusic": "https://music.apple.com/us/song/stray-kids/1752739832",
-      "youtube": ""
+      "youtube": "https://youtu.be/GBoHUDOc4Qo?si=z4AO8Q64Y_iti6zo"
     },
     "recs": []
   },
@@ -3216,7 +3235,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/7EnXcPK6xBxQr7hOFRLQIi",
       "appleMusic": "https://music.apple.com/us/song/giant-korean-ver/1799804279",
-      "youtube": ""
+      "youtube": "https://youtu.be/h21pp5-k9SA?si=bHT0kIU6eehhZSfo"
     },
     "recs": []
   },
@@ -3235,7 +3254,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4TjypNhCmZhTTBBkD39RiZ",
       "appleMusic": "https://music.apple.com/us/album/night/1770980094?i=1770980098&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/xhHE8pYt74g?si=GyWO_oCkiWsaCTiw"
     },
     "recs": []
   },
@@ -3254,7 +3273,26 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5UObrySvUGkxy8TrYOONaD",
       "appleMusic": "https://music.apple.com/us/album/falling-up/1770980106?i=1770980275&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/HF7cDT9LFsE?si=heUiV6NjP8SOe3fD"
+    },
+    "recs": []
+  },
+  {
+    "title": "Falling Up (English Version)",
+    "album": "GIANT",
+    "year": 2024,
+    "duration": "3:12",
+    "genres": [
+      "R&B/Soul",
+      "Rock/Punk/Metal"
+    ],
+    "bpm": 120,
+    "tier": "Mid",
+    "art": "assets/covers/giant.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/5UObrySvUGkxy8TrYOONaD",
+      "appleMusic": "https://music.apple.com/us/song/falling-up-english-version/1777033706",
+      "youtube": "https://youtu.be/ULYpLm7q4nQ?si=88dG0tDhls6F1iGc"
     },
     "recs": []
   },
@@ -3273,7 +3311,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2NeJBfbWgs19WiBXAUPpBq",
       "appleMusic": "https://music.apple.com/us/album/why/1739055026?i=1739055027&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/0SP8ie--amY?si=zdp7l6HGAyt5u8uj"
     },
     "recs": []
   },
@@ -3291,7 +3329,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2o0mDDzvlsvpMTXb0b8MHQ",
       "appleMusic": "https://music.apple.com/us/album/saiyan/1777033478?i=1777033699&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Q4vEPBlcPGo?si=pYIDbZY7yQ4WW8LZ"
     },
     "recs": []
   },
@@ -3310,7 +3348,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0nCviJkLm2XImxFyFHXgzt",
       "appleMusic": "https://music.apple.com/us/album/aiwokuretanoninaze/1777033478?i=1777033700&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/BLfrPSSO_YI?si=eyMGZZqi3A9Jw78D"
     },
     "recs": []
   },
@@ -3328,7 +3366,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6kc4TYfDwwxd5ihBAxVF9L",
       "appleMusic": "https://music.apple.com/us/album/christmas-love/1777033478?i=1777033703&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/24oVZSPa5Us?si=PdKAm__Ec6_J-utL"
     },
     "recs": []
   },
@@ -3346,7 +3384,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5emQyqYHyUOcuS3nsuC0sm",
       "appleMusic": "https://music.apple.com/us/song/walkin-on-water/1780412269",
-      "youtube": ""
+      "youtube": "https://youtu.be/ovHoY8UBIu8?si=TByUX3tj8LCm_AFQ"
     },
     "recs": []
   },
@@ -3365,7 +3403,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4IjDmInimVIKoStoedFO1J",
       "appleMusic": "https://music.apple.com/us/album/bounce-back/1780411692?i=1780412286&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/vRmkqYlH-nA?si=_fgLayz96fosHHw4"
     },
     "recs": []
   },
@@ -3384,7 +3422,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6l2V3Ik6Q6YZ4M1soUbU4s",
       "appleMusic": "https://music.apple.com/us/album/u-feat-tablo/1780411692?i=1780412292&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/iqeY3sz8ldk?si=MiuPkUISwEKFppbJ"
     },
     "recs": []
   },
@@ -3403,7 +3441,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4vNhzQfgfWIzOxbB8HfIHa",
       "appleMusic": "https://music.apple.com/us/album/railway-bang-chan/1780411692?i=1780412483&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/27rdSyt-Qt8?si=dnykDZNFr8avjFJv"
     },
     "recs": []
   },
@@ -3421,7 +3459,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/15fpZUMOQD9ONTjxITFXFT",
       "appleMusic": "https://music.apple.com/us/album/unfair-felix/1780411692?i=1780412490&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Oswujxm2Ag0?si=Gvmx510MuE2Ivu_A"
     },
     "recs": []
   },
@@ -3440,7 +3478,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6tVyzdoIKEtPQmhC1oZB7d",
       "appleMusic": "https://music.apple.com/us/album/hallucination-i-n/1780411692?i=1780412493&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/n5B5q1Hwt_U?si=6mqAiqx-oSnTQe-L"
     },
     "recs": []
   },
@@ -3458,7 +3496,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6fOLPHRGb6putSY6xFk45t",
       "appleMusic": "https://music.apple.com/us/album/youth-lee-know/1780411692?i=1780412495&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/NI2NBjZGYfM?si=kmJAdjNBVoyKDAuL"
     },
     "recs": []
   },
@@ -3476,7 +3514,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/18CEEhZoQBHBiGfGANm0zJ",
       "appleMusic": "https://music.apple.com/us/album/so-good-hyunjin/1780411692?i=1780412500&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/3yp17XEP5ck?si=NCf7UWrwGPVLR_Dw"
     },
     "recs": []
   },
@@ -3495,7 +3533,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/7kgRKpUaw2kQOAUL5XyxLP",
       "appleMusic": "https://music.apple.com/us/album/ultra-changbin/1780411692?i=1780412508&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/t4YJEekL1f8?si=J4MhEZsIMlOuZIJC"
     },
     "recs": []
   },
@@ -3514,7 +3552,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/6U9CTAof4KBnyzDt8OYY75",
       "appleMusic": "https://music.apple.com/us/album/hold-my-hand-han/1780411692?i=1780412926&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/DzBB7izZnZk?si=f9PKTqN7e9lhu-3C"
     },
     "recs": []
   },
@@ -3532,7 +3570,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/1QhF4HWFQ3YFzFOuWUpDP0",
       "appleMusic": "https://music.apple.com/us/album/as-we-are-seungmin/1780411692?i=1780413023&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/kAzmhLHePqU?si=1eVS9M_ZoWuFfVeP"
     },
     "recs": []
   },
@@ -3550,7 +3588,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/7EnXcPK6xBxQr7hOFRLQIi",
       "appleMusic": "https://music.apple.com/us/song/giant-korean-ver/1799804279",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=A7dQKxv_rvU"
     },
     "recs": []
   },
@@ -3569,7 +3607,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4Sz5KwMxHQnJPf64wJW5aq",
       "appleMusic": "https://music.apple.com/us/album/burnin-tires/1876749913?i=1876749923&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/vSPnf72JsCQ?si=qHbkLGU9zYZxS7Ws"
     },
     "recs": []
   },
@@ -3588,7 +3626,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4DEbsCe0w8CrwdMm8WpdzO",
       "appleMusic": "https://music.apple.com/us/song/truman-han-felix/1799804285",
-      "youtube": ""
+      "youtube": "https://youtu.be/diMyNjWyDW8?si=7H3BH1nU1qHxvw4N"
     },
     "recs": []
   },
@@ -3607,7 +3645,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5v6c5XtD3zKPvgUknF7h9K",
       "appleMusic": "https://music.apple.com/us/song/escape-bang-chan-hyunjin/1799804292",
-      "youtube": ""
+      "youtube": "https://youtu.be/LvCmsOWPwKA?si=ZWeSdlu-t1-d96HL"
     },
     "recs": []
   },
@@ -3625,7 +3663,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2StQuhn6KdemQlwsvLgwBy",
       "appleMusic": "https://music.apple.com/us/song/cinema-lee-know-seungmin/1799804294",
-      "youtube": ""
+      "youtube": "https://youtu.be/G4CAFJ5mLXU?si=30ZiRHGyzi2C-VSX"
     },
     "recs": []
   },
@@ -3644,7 +3682,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5K1thEZHOgjE89mxwA01T9",
       "appleMusic": "https://music.apple.com/us/album/hollow/1815865407?i=1815865710&uo=4",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=OyW9Hs1lRRU"
     },
     "recs": []
   },
@@ -3663,7 +3701,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0IGr2xuMj48hjT6Vua9Qoc",
       "appleMusic": "https://music.apple.com/us/album/parade/1815865407?i=1815865730&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/11XJbEuB_P4?si=AXnW7EdkE-SZrFD4"
     },
     "recs": []
   },
@@ -3681,7 +3719,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4e392CAUrX4fzn6AejtNtf",
       "appleMusic": "https://music.apple.com/us/album/never-alone/1815865407?i=1815865731&uo=4",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=2lrCUD30wVg&list=OLAK5uy_kiejLUc-LJYizptQj7YzqdBJqlDEIfwc4"
     },
     "recs": []
   },
@@ -3699,7 +3737,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/60wxMzp43GS06tfG8ReRfI",
       "appleMusic": "https://music.apple.com/us/album/just-a-little/1815865407?i=1815865733&uo=4",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=UyNdcMLbxTs&list=OLAK5uy_kiejLUc-LJYizptQj7YzqdBJqlDEIfwc4"
     },
     "recs": []
   },
@@ -3717,7 +3755,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4VwkODja7853Fz1FWzp126",
       "appleMusic": "https://music.apple.com/us/album/fate/1815865407?i=1815865735&uo=4",
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=MyqE3V_n0CM&list=OLAK5uy_kiejLUc-LJYizptQj7YzqdBJqlDEIfwc4"
     },
     "recs": []
   },
@@ -3736,7 +3774,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/62xU1NllqWBCbkZFTXEqzF",
       "appleMusic": "https://music.apple.com/us/album/ceremony/1827247172?i=1827247176&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/P7vBoGWoReg?si=ODF_R3g-gzuzaRg1"
     },
     "recs": []
   },
@@ -3754,7 +3792,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4UP9Dn3u8O4p8oH41EXOai",
       "appleMusic": "https://music.apple.com/us/album/bleep/1827247172?i=1827247174&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/qS7OsvKqojg?si=Dm3IdGEJu2wGvisa"
     },
     "recs": []
   },
@@ -3772,7 +3810,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2vhT1g99dOFuh1EFv1fiGE",
       "appleMusic": "https://music.apple.com/us/album/creed/1827247172?i=1827247184&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/y-rPpGpnSg0?si=yKJzmZUnSAZLjXKP"
     },
     "recs": []
   },
@@ -3790,7 +3828,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2nPfKVwhD3ndWpLk7grx0Q",
       "appleMusic": "https://music.apple.com/us/album/mess/1827247172?i=1827247279&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Q-rDglVNQO0?si=6ERg0zy5L5W61G_o"
     },
     "recs": []
   },
@@ -3809,7 +3847,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2ZiMlGDHNEIuK0M0DL4Xel",
       "appleMusic": "https://music.apple.com/us/album/in-my-head/1827247172?i=1827247281&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/jQ7W5A-wwKo?si=x46RHPnMz_ZrxbSJ"
     },
     "recs": []
   },
@@ -3828,7 +3866,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0UQFOgOBiLzd7icv7pk0dm",
       "appleMusic": "https://music.apple.com/us/album/half-time/1827247172?i=1827247284&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/Hzp7hy0lIIM?si=K7OVvJZgUgblV4Tf"
     },
     "recs": []
   },
@@ -3846,7 +3884,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/3yLOy7bjC1dDeOh4MArkq8",
       "appleMusic": "https://music.apple.com/us/album/phoenix/1827247172?i=1827247288&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/QZtn6ec0rH4?si=_QbW8N1BCPYnUVTp"
     },
     "recs": []
   },
@@ -3864,7 +3902,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2UoZmL5FPxGh9PIOukJwnG",
       "appleMusic": "https://music.apple.com/us/album/ghost/1827247172?i=1827247289&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/c9ZiUXtcaBw?si=7bPQ7wl1UOptfGED"
     },
     "recs": []
   },
@@ -3883,7 +3921,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/1IyV9GwfMVEVMymw8N4nsI",
       "appleMusic": "https://music.apple.com/us/album/0801/1827247172?i=1827247292&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/ciRftriyejM?si=jpj-ZO8KB1OCrqoe"
     },
     "recs": []
   },
@@ -4279,25 +4317,6 @@
     "recs": []
   },
   {
-    "title": "RUN IT",
-    "album": "This & That",
-    "year": 2026,
-    "duration": "2:45",
-    "genres": [
-      "Hip-Hop",
-      "Pop"
-    ],
-    "bpm": 130,
-    "tier": "Mid",
-    "art": "assets/covers/this-that.jpg",
-    "links": {
-      "spotify": "https://open.spotify.com/track/0D7q3I9Hpi7bBuFd2OFp1s",
-      "appleMusic": "https://music.apple.com/us/album/run-it/6781751949?i=6781751954&uo=4",
-      "youtube": ""
-    },
-    "recs": []
-  },
-  {
     "title": "Extraordinary You",
     "album": "Singles/Solos/Features",
     "year": null,
@@ -4329,7 +4348,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2PujZcAaAMGsOeTUjrzkrz",
       "appleMusic": "https://music.apple.com/us/album/hello-stranger/1523814791?i=1523814792&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/hKvGwo2p4q8?si=dohKKLmIidXA-Cs3"
     },
     "recs": []
   },
@@ -4348,7 +4367,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/3Ea1CNsTqBY4RtAESrBeNI",
       "appleMusic": "https://music.apple.com/us/album/going-dumb-with-stray-kids/1556994908?i=1556994922&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/2jjcuRckOJc?si=dF6EDgLiyQdo8xPS"
     },
     "recs": []
   },
@@ -4366,7 +4385,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5OHNBi6tsE0acRA9Kt4ybC",
       "appleMusic": "https://music.apple.com/us/album/all-my-life-stray-kids-remix/1711872050?i=1711872071&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/IgBYRMkk6nc?si=puLdcxwgZKCrxCNO"
     },
     "recs": []
   },
@@ -4385,7 +4404,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/5NxxixRIBePmP5iNl9lPOt",
       "appleMusic": "https://music.apple.com/us/album/lose-my-breath/207341054?i=207341067&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/SQ1yPMTIwCU?si=t2U_u_6S-3hBjR0E"
     },
     "recs": []
   },
@@ -4404,7 +4423,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2MKGrYH1PyPAUKu2Sl8IaT",
       "appleMusic": "https://music.apple.com/us/album/slash/1756819950?i=1756819951&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/BMcgZEWM8UM?si=mxdQy9hBM4rWeEIp"
     },
     "recs": []
   },
@@ -4459,7 +4478,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2wM7umhsdzsrJXg9E8kMMA?si=06d1f1423cc74868",
       "appleMusic": "https://music.apple.com/us/album/r-b-me-feat-changbin/1834308165?i=1834308168&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/ufRQo9dP5H0?si=kblQcqY-sDlKIFPl"
     },
     "recs": []
   },
@@ -4478,7 +4497,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/54JLvGY4q0rsPjbMVvX8HJ",
       "appleMusic": "https://music.apple.com/us/album/middle-school-2nd-year-respect-everyones-universe/1780301115?i=1780301116&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/tIudkczF3_I?si=HyxJoEODVZ5tfUoJ"
     },
     "recs": []
   },
@@ -4496,7 +4515,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/59WuWdDH06AYXgdoMENEa3",
       "appleMusic": "https://music.apple.com/us/album/mirror-mirror-feat-changbin-stray-kids/1590513659?i=1590513969&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/FZlBKl-spfY?si=KB6mxwFUGhwYPM4u"
     },
     "recs": []
   },
@@ -4551,7 +4570,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2rOUaQ1TGj7wZdHdn9UgTL",
       "appleMusic": "https://music.apple.com/us/album/reawaker-feat-felix-of-stray-kids/1783371195?i=1783371197&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/oe4XJ851oOk?si=gyT9zeZBL6uWzkb7"
     },
     "recs": []
   },
@@ -4659,7 +4678,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2WdnAdw7zpgU0FRkGiRV8n",
       "appleMusic": "https://music.apple.com/us/album/here-always/1589042706?i=1589042707&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/iIkVGAjIdKk?si=wVK1N30ervlZnwjJ"
     },
     "recs": []
   },
@@ -4695,7 +4714,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/4IEZ9UCx15HcRmOT2gygT2",
       "appleMusic": "https://music.apple.com/us/album/in-the-dark/1847992539?i=1847992545&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/xNAIOnpWepE?si=dYKptmD73jrVAddv"
     },
     "recs": []
   },
@@ -4714,7 +4733,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/2mRdxTKPrdr5EISF2Xcnc1",
       "appleMusic": "https://music.apple.com/us/album/endless-sun/1878241204?i=1878241209&uo=4",
-      "youtube": ""
+      "youtube": "https://youtu.be/F-QSLxAyFes?si=i69kcH0jZ-YgV9ph"
     },
     "recs": []
   },
@@ -4733,7 +4752,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/7rw9yCuNFOqWT0P7rOywgA",
       "appleMusic": "https://music.apple.com/us/song/let-it-show/1893923448",
-      "youtube": ""
+      "youtube": "https://youtu.be/Dj5SOqo92OU?si=Z0LsuUXzagOd2xmo"
     },
     "recs": []
   },
@@ -4752,7 +4771,7 @@
     "links": {
       "spotify": "https://open.spotify.com/track/28his6ZYxU15m3bCUTUtFA",
       "appleMusic": "https://music.apple.com/us/song/cant-love/6778757122",
-      "youtube": ""
+      "youtube": "https://youtu.be/IufpX0FpH5c?si=8A8izSK1KuiMLKGp"
     },
     "recs": []
   },
@@ -4771,6 +4790,140 @@
     "links": {
       "spotify": "https://open.spotify.com/track/0JvJ526shHypEYoxFuU54V",
       "appleMusic": "https://music.apple.com/us/album/back-to-life/6774310702?i=6774310705&uo=4",
+      "youtube": "https://youtu.be/F0UIsSnotlA?si=O7OJXQNaN0kBQ3wh"
+    },
+    "recs": []
+  },
+  {
+    "title": "RUN IT",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "2:45",
+    "genres": [
+      "Hip-Hop",
+      "Pop"
+    ],
+    "bpm": 130,
+    "tier": "Mid",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/0D7q3I9Hpi7bBuFd2OFp1s",
+      "appleMusic": "https://music.apple.com/us/album/run-it/6781751949?i=6781751954&uo=4",
+      "youtube": "https://youtu.be/Q7IFjVUUb_E?si=aSD-_oe1a3Fak3YA"
+    },
+    "recs": []
+  },
+  {
+    "title": "This & That",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "3:05",
+    "genres": [
+      "Hip-Hop",
+      "Pop",
+      "EDM/Electronic"
+    ],
+    "bpm": 88,
+    "tier": "Slow",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/7AN7dJCtHqbL7f76QGyraa?si=80b10b4c9b914be4",
+      "appleMusic": "",
+      "youtube": "https://youtu.be/BZ4UzthYTss?si=YfNIxs6vdWekb0CY"
+    },
+    "recs": []
+  },
+  {
+    "title": "FARMING",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "2:31",
+    "genres": [
+      "Hip-Hop",
+      "EDM/Electronic"
+    ],
+    "bpm": 132,
+    "tier": "Mid",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "After You",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "2:50",
+    "genres": [
+      "Pop",
+      "EDM/Electronic"
+    ],
+    "bpm": 127,
+    "tier": "Mid",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "This & That (Festival Version)",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "3:42",
+    "genres": [
+      "EDM/Electronic",
+      "Pop"
+    ],
+    "bpm": 145,
+    "tier": "Up-tempo",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Way Out",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "2:54",
+    "genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "bpm": 92,
+    "tier": "Slow",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    },
+    "recs": []
+  },
+  {
+    "title": "Back Then",
+    "album": "This & That",
+    "year": 2026,
+    "duration": "3:35",
+    "genres": [
+      "Ballad",
+      "Pop"
+    ],
+    "bpm": 78,
+    "tier": "Slow",
+    "art": "assets/covers/this-that.jpg",
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
       "youtube": ""
     },
     "recs": []
